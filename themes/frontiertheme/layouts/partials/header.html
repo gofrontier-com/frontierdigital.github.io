@@ -1,0 +1,17 @@
+<div class="container">
+  <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+    <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+      <img src="/images/horizontal.png" height="32">
+    </a>
+
+    <ul class="nav nav-pills">
+      {{ $currentPage := . }}
+      {{ range .Site.Menus.main }}
+      <li class="navbar-item {{if or ($currentPage.IsMenuCurrent " main" .) ($currentPage.HasMenuCurrent "main" .) }}
+        active{{end}}">
+        <a class="nav-link" href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
+      </li>
+      {{ end }}
+    </ul>
+  </header>
+</div>

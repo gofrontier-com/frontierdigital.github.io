@@ -1,0 +1,15 @@
+baseURL = 'https://frontier-digital.co.uk'
+languageCode = 'en-gb'
+title = 'Frontier Digital'
+theme = 'frontiertheme'
+
+[menu]
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about/"
+
+# [[menu.main]]
+# identifier = "posts"
+# name = "Posts"
+# url = "/posts/"
