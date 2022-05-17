@@ -5,6 +5,20 @@ body {
   font-family: "Exo 2", sans-serif !important;
 }
 
+.bg-light {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+}
+.py-3 {
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+}
+.mt-auto {
+  margin-top: auto !important;
+}
+.flex-shrink-0 {
+  flex-shrink: 0 !important;
+}
 .feature-icon {
   display: inline-flex;
   align-items: center;
@@ -14,5 +28,5 @@ body {
   margin-bottom: 1rem;
   font-size: 2rem;
   color: #fff;
-  border-radius: .75rem;
+  border-radius: 0.75rem;
 }
