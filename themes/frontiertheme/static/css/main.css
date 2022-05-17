@@ -7,7 +7,7 @@ body {
 
 .bg-light {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-light-rgb),var(--bs-bg-opacity)) !important;
+  background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
 }
 .py-3 {
   padding-top: 1rem !important;
@@ -28,5 +28,5 @@ body {
   margin-bottom: 1rem;
   font-size: 2rem;
   color: #fff;
-  border-radius: .75rem;
+  border-radius: 0.75rem;
 }
