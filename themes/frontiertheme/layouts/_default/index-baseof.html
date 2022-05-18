@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  {{- partial "head.html" . -}}
+
+
+  <body>
+    {{- partial "header.html" . -}}
+    <div class="card bg-dark text-white">
+      <img src="/images/mountains.jpg" class="card-img" alt="..." />
+      <div
+        class="card-img-overlay align-items-center d-flex justify-content-center"
+      >
+        <div class="card-body">
+          <h1 class="display-1 fw-bold">Frontier Digital</h1>
+          <div class="mx-auto">
+            <p class="lead mb-4">
+              A Boutique Cloud & DevOps services provider.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <main class="flex-shrink-0">
+        <div id="content">{{- block "main" . }}{{- end }}</div>
+      </main>
+    </div>
+    {{- partial "footer.html" . -}}
+  </body>
+</html>
