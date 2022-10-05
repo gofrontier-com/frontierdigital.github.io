@@ -7,53 +7,7 @@
 <html lang="en">
 
 
-	<head>
-
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-		<meta name="author" content="DSAThemes"/>
-		<meta name="description" content="Frontier Digital - Bespoke Cloud based and DevOps systems software developer, integrator and coach"/>
-		<meta name="keywords" content="DevOps, cloud, azure, cyber security">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-
-  		<!-- SITE TITLE -->
-		<title>Frontier Digital - Cloud Platform and Devops Professional Services Company</title>
-
-		<!-- FAVICON AND TOUCH ICONS -->
-		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-		<link rel="icon" href="images/favicon.ico" type="image/x-icon">
-		<link rel="apple-touch-icon" sizes="152x152" href="images/apple-touch-icon-152x152.png">
-		<link rel="apple-touch-icon" sizes="120x120" href="images/apple-touch-icon-120x120.png">
-		<link rel="apple-touch-icon" sizes="76x76" href="images/apple-touch-icon-76x76.png">
-		<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-		<link rel="icon" href="images/apple-touch-icon.png" type="image/x-icon">
-
-		<!-- GOOGLE FONTS -->
-		<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap" rel="stylesheet">
-
-		<!-- BOOTSTRAP CSS -->
-		<link href="css/bootstrap.min.css" rel="stylesheet">
-
-		<!-- FONT ICONS -->
-		<link href="css/flaticon.css" rel="stylesheet">
-
-		<!-- PLUGINS STYLESHEET -->
-		<link href="css/menu.css" rel="stylesheet">
-		<link id="effect" href="css/dropdown-effects/fade-down.css" media="all" rel="stylesheet">
-		<link href="css/magnific-popup.css" rel="stylesheet">
-		<link href="css/owl.carousel.min.css" rel="stylesheet">
-		<link href="css/owl.theme.default.min.css" rel="stylesheet">
-
-		<!-- ON SCROLL ANIMATION -->
-		<link href="css/animate.css" rel="stylesheet">
-
-		<!-- TEMPLATE CSS -->
-		<link href="css/style.css" rel="stylesheet">
-
-		<!-- RESPONSIVE CSS -->
-		<link href="css/responsive.css" rel="stylesheet">
-
-	</head>
+	{{ partial "head.html" . }}
 
 
 
@@ -62,18 +16,7 @@
 
 
 
-		<!-- PRELOADER SPINNER
-		============================================= -->
-		<div id="loading" class="orange-red-loading">
-			<div id="loading-center">
-				<div id="loading-center-absolute">
-					<div class="object" id="object_one"></div>
-					<div class="object" id="object_two"></div>
-					<div class="object" id="object_three"></div>
-					<div class="object" id="object_four"></div>
-				</div>
-			</div>
-		</div>
+		{{ partial "spinner.html" }}
 
 
 
@@ -85,132 +28,12 @@
 
 
 
-			<!-- HEADER
-			============================================= -->
-			<header id="header" class="header tra-menu navbar-light">
-				<div class="header-wrapper">
-
-
-					<!-- MOBILE HEADER -->
-				    <div class="wsmobileheader clearfix">
-				    	<span class="smllogo"><img src="images/footer-logo.jpg" alt="mobile-logo"/></span>
-				    	<a id="wsnavtoggle" class="wsanimated-arrow"><span></span></a>
-				 	</div>
-
-
-				 	<!-- NAVIGATION MENU -->
-				  	<div class="wsmainfull menu clearfix">
-	    				<div class="wsmainwp clearfix">
-
-
-	    					<!-- HEADER LOGO -->
-	    					<div class="desktoplogo"><a href="#hero-1" class="logo-black"><img src="images/white-logo-f.png" alt="header-logo"></a></div>
-	    					<div class="desktoplogo"><a href="#hero-1" class="logo-white"><img src="images/logo-022.png" alt="header-logo"></a></div>
-
-
-	    					<!-- MAIN MENU -->
-	      					<nav class="wsmenu clearfix">
-	        					<ul class="wsmenu-list nav-orange-red-hover">
-
-
-						          	<!-- SIMPLE NAVIGATION LINK -->
-							    	<li class="nl-simple" aria-haspopup="true"><a href="index.html">Home</a></li>
-
-
-	        						<!-- DROPDOWN MENU -->
-						          	<li aria-haspopup="true"><a href="#">About</a>
-								    </li>
-
-
-							    	<!-- DROPDOWN MENU -->
-						        	<li aria-haspopup="true"><a href="#">Services</a>
-						          	</li>	<!-- END DROPDOWN MENU -->
-
-
-						          	<!-- DROPDOWN MENU -->
-						          	<li aria-haspopup="true"><a href="#">Blog</a>
-								    </li>
-
-
-								    <!-- HEADER BUTTON -->
-								    <li class="nl-simple" aria-haspopup="true">
-								    	<a href="#content-4" class="btn btn-tra-white orange-red-hover last-link">Contact</a>
-								    </li>
-
-
-									<!-- HEADER SOCIAL LINKS
-									<li class="nl-simple white-color header-socials ico-20 clearfix" aria-haspopup="true">
-										<span><a href="#" class="ico-facebook"><span class="flaticon-facebook"></span></a></span>
-										<span><a href="#" class="ico-twitter"><span class="flaticon-twitter"></span></a></span>
-										<span><a href="#" class="ico-instagram"><span class="flaticon-instagram"></span></a></span>
-										<span><a href="#" class="ico-dribbble"><span class="flaticon-dribbble"></span></a></span>
-									</li> -->
-
-
-	        					</ul>
-	        				</nav>	<!-- END MAIN MENU -->
-
-
-	    				</div>
-	    			</div>	<!-- END NAVIGATION MENU -->
-
-
-				</div>     <!-- End header-wrapper -->
-			</header>	<!-- END HEADER -->
+			{{ partial "header.html" }}
 
 
 
 
-			<!-- HERO-1
-			============================================= -->
-			<section id="hero-1" class="bg-scroll hero-section division">
-				<div class="container">
-					<div class="row d-flex align-items-center">
-
-
-						<!-- HERO TEXT -->
-						<div class="col-md-7 col-lg-6">
-							<div class="hero-1-txt white-color wow fadeInRight">
-
-								<!-- Title -->
-								<h2 class="h2-md">We are a boutique Cloud Platform Engineering company.
-</h2>
-
-								<!-- Text -->
-								<p class="p-xl">Our experienced team can work with yours.
-								</p>
-
-								<!-- Buttons Group -->
-								<div class="btns-group mb-20">
-									<a href="#content-3" class="btn btn-orange-red tra-white-hover mr-15">Learn More</a>
-									</a>
-								</div>
-
-
-
-							</div>
-						</div>	<!-- END HERO TEXT -->
-
-
-						<!-- HERO IMAGE -->
-						<div class="col-md-5 col-lg-6">
-							<div class="hero-1-img wow fadeInLeft">
-								<img class="img-fluid" src="images/hero-1-img.png" alt="hero-image">
-							</div>
-						</div>
-
-
-					</div>    <!-- End row -->
-				</div>	   <!-- End container -->
-
-
-				<!-- WAVE SHAPE BOTTOM -->
-				<div class="wave-shape-bottom">
-					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 130"><path fill="#ffffff" fill-opacity="1" d="M0,64L120,80C240,96,480,128,720,128C960,128,1200,96,1320,80L1440,64L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path></svg>
-				</div>
-
-
-			</section>	<!-- END HERO-1 -->
+			{{ partial "index/hero.html" . }}
 <!-- CONTENT-666
 			============================================= -->
 			<section id="content-6" class="content-6 wide-60 content-section division">
@@ -218,42 +41,28 @@
 			 		<div class="row d-flex align-items-center">
 
 
+						<!-- TEXT BLOCK -->
+						<div class="col-md-6 col-lg-5">
+							<div class="txt-block left-column wow fadeInLeft">
 
-
-			 			<!-- TEXT BLOCK -->
-			 			<div class="col-md-6 col-lg-5">
-			 				<div class="txt-block left-column wow fadeInLeft">
-
-					 			<!-- TEXT BOX -->
-								<div class="txt-box mb-30">
-
-									<!-- Title -->
-									<h5 class="h5-lg">DevOps for the Digital Frontier</h5>
-
-									<!-- Text -->
-									<p class="p-lg">A hard working Cloud platform is the strong foundation that gives you the capabilities to tackle the challenges that come with being a succesful business.
-									Growing your company is a an adventure; but it’s more akin a long distance trek that a day of Skydiving.
-									For long term success, you need software that grows and adapts to your changing requirements - you get bigger, it gets smarter.
-									</p>
-
-
+								<!-- TEXT BOX -->
+								<div class="txt-box mb-30 section">
+									{{ with .Site.GetPage "section" "section1" }}{{ .Content }}{{ end }}
 								</div>
 
-					 		</div>
-					 	</div>
-								 			<!-- IMAGE BLOCK -->
+							</div>
+						</div>
+						<!-- IMAGE BLOCK -->
 						<div class="col-md-6 col-lg-7">
 							<div class="img-block right-column wow fadeInLeft">
 								<img class="img-fluid" src="images/img-20.png" alt="content-image">
 							</div>
 						</div>
-						<div class="col-md-12">
-																								<!-- Text -->
-									<p class="p-lg">Frontier Digital are a bespoke Cloud based and DevOps systems software developer, integrator and coach.
-									That last part, is the most important. For everything system we develop, we make sure that the end user understands how to use it.
-									When you work with Frontier Digital, your team becomes more efficient as they learn how to streamline and improve administrative and operational tasks, giving them more time to focus on what you really hired them to do.
-									</p>
-						<p class="p-lg">With any new process you bring into your business, it has be be created and managed carefully to ensure that the implementation is as strong as the initial strategy. That’s what we do.</p>
+
+
+						</div>
+						<div class="col-md-12 section">
+													{{ with .Site.GetPage "section" "section2" }}{{ .Content }}{{ end }}
 <div>
 
 
@@ -450,60 +259,16 @@
 							</div>
 						</div>
 
+				<!-- TEXT BLOCK -->
+				<div class="col-md-7 col-lg-6">
+					<div class="txt-block right-column white-color wow fadeInLeft epic">
 
-						<!-- TEXT BLOCK -->
-						<div class="col-md-7 col-lg-6">
-							<div class="txt-block right-column white-color wow fadeInLeft">
+						{{ with .Site.GetPage "section" "epic" }}{{ .Content }}{{ end }}
 
-								<!-- Title -->
-								<h2 class="h2-xs">Start Something Epic</h2>
-								<!-- Text -->
-										<p class="p-lg">Our experienced team can work with yours From Base Camp To Summit. We will scare your Cloud Platform using Kubernetes and by expanding to new edge locations, reducing latency.
-								<!-- List -->
-								<ul class="simple-list">
+					</div>
+				</div> <!-- END TEXT BLOCK -->
 
-									<li class="list-item">
-										<p class="p-lg">Base camp
-										</p>
-										<ul>
-										<li>Architecural standards</li>
-										<li>RBAC Defined</li>
-										<li>Basic Infrastructure as Code</li>
-										</ul>
-									</li>
 
-									<li class="list-item">
-										<p class="p-lg">Camp 1</p>
-										<ul>
-										<li>Basic build, test and deploy</li>
-										</ul>
-									</li>
-
-									<li class="list-item">
-										<p class="p-lg">Camp 2</p>
-										<ul>
-										<li>Basic developer self service</li>
-										</ul>
-									</li>
-																		<li class="list-item">
-										<p class="p-lg">Camp 3
-										</p>
-																				<ul>
-										<li>Complex Orchestration mechanism to manage dependencies</li>
-										</ul>
-									</li>
-																		<li class="list-item">
-										<p class="p-lg">Summit
-										</p>
-																														<ul>
-										<li>Full Internal Developer platform</li>
-										</ul>
-									</li>
-
-								</ul>
-
-							</div>
-						</div>	<!-- END TEXT BLOCK -->
 
 
 					</div>	   <!-- End row -->
@@ -711,105 +476,7 @@
 
 
 
-
-			<!-- FOOTER-1
-			============================================= -->
-			<footer id="footer-1" class="footer division">
-				<div class="container">
-
-
-					<!-- FOOTER CONTENT -->
-					<div class="row">
-
-
-						<!-- FOOTER INFO -->
-						<div class="col-lg-4">
-							<div class="footer-info mb-40">
-
-								<!-- Footer Logo -->
-								<img class="footer-logo mb-25" src="images/footer-logo.jpg" alt="footer-logo">
-
-
-							</div>
-						</div>
-
-
-						<!-- FOOTER LINKS -->
-						<div class="col-sm-12 col-md-6 col-lg-2 col-xl-4">
-							<div class="footer-links mb-40">
-
-								<!-- Title -->
-								<h6 class="h6-xl">Company</h6>
-
-								<!-- Footer Links -->
-								<ul class="foo-links text-secondary clearfix">
-									<li><p class="p-md"><a href="#">About Us</a></p></li>
-									<li><p class="p-md"><a href="#">Services</a></p></li>
-									<li><p class="p-md"><a href="#">Blog</a></p></li>
-									<li><p class="p-md"><a href="#">Contact Us</a></p></li>
-								</ul>
-
-							</div>
-						</div>
-
-
-						<!-- FOOTER LINKS -->
-						<div class="col-sm-12 col-md-6 col-lg-2 col-xl-4">
-							<div class="footer-links mb-40">
-
-								<!-- Title -->
-								<h6 class="h6-xl">Useful Links</h6>
-
-								<!-- Footer List -->
-								<ul class="foo-links text-secondary clearfix">
-									<li><p class="p-md"><a href="#">Terms of Use</a></p></li>
-									<li><p class="p-md"><a href="#">Privacy Policy</a></p></li>
-									<li><p class="p-md"><a href="#">Cookie Policy</a></p></li>
-									<li><p class="p-md"><a href="#">Site Map</a></p></li>
-								</ul>
-
-							</div>
-						</div>
-
-
-
-					</div>	<!-- END FOOTER CONTENT -->
-
-
-					<hr>
-
-
-					<!-- BOTTOM FOOTER -->
-					<div class="bottom-footer">
-						<div class="row row-cols-1 row-cols-md-2 d-flex align-items-center">
-
-
-							<!-- FOOTER COPYRIGHT -->
-							<div class="col">
-								<div class="footer-copyright">
-									<p>&copy; 2022 Frontier Digital.</p>
-								</div>
-							</div>
-
-
-							<!-- BOTTOM FOOTER LINKS -->
-							<div class="col">
-								<ul class="bottom-footer-list text-secondary text-end">
-									<li class="first-li"><p><a href="#">Facebook</a></p></li>
-									<li><p><a href="#">LinkedIn</a></p></li>
-								</ul>
-							</div>
-
-
-						</div>  <!-- End row -->
-					</div>	<!-- BOTTOM FOOTER -->
-
-
-				</div>
-			</footer>	<!-- END FOOTER-1 -->
-
-
-
+            {{ partial "footer.html" }}
 
 		</div>	<!-- END PAGE CONTENT -->
 
