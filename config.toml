@@ -3,6 +3,8 @@ languageCode = 'en-gb'
 title = 'Frontier Digital'
 theme = 'frontiertheme'
 
+enableRobotsTXT = true
+
 [menu]
 [[menu.main]]
 identifier = "about"
