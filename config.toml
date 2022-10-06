@@ -3,6 +3,8 @@ languageCode = 'en-gb'
 title = 'Frontier Digital - Cloud Platform and Devops Professional Services Company'
 theme = 'frontiertheme'
 
+enableRobotsTXT = true
+
 [menu]
 [[menu.main]]
 identifier = "home"
