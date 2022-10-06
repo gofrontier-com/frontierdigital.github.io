@@ -7,7 +7,7 @@ theme = 'frontiertheme'
 [[menu.main]]
 identifier = "home"
 name = "Home"
-url = "/home/"
+url = "/"
 weight = 1
 
 [[menu.main]]
