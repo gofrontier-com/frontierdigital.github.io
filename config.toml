@@ -21,11 +21,11 @@ weight = 4
 [[menu.main]]
 identifier = "services"
 name = "Services"
-url = "/services/"
+url = "#"
 weight = 2
 
 [[menu.main]]
 identifier = "blog"
 name = "Blog"
-url = "/blog/"
+url = "#"
 weight = 3
