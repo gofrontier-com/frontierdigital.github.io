@@ -5,11 +5,25 @@ theme = 'frontiertheme'
 
 [menu]
 [[menu.main]]
+identifier = "home"
+name = "Home"
+url = "/home/"
+weight = 1
+
+[[menu.main]]
 identifier = "about"
 name = "About"
 url = "/about/"
+weight = 4
 
-# [[menu.main]]
-# identifier = "posts"
-# name = "Posts"
-# url = "/posts/"
+[[menu.main]]
+identifier = "services"
+name = "Services"
+url = "/services/"
+weight = 2
+
+[[menu.main]]
+identifier = "blog"
+name = "Blog"
+url = "/blog/"
+weight = 3

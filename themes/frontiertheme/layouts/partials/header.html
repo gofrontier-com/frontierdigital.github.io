@@ -6,7 +6,7 @@
 
     <!-- MOBILE HEADER -->
     <div class="wsmobileheader clearfix">
-      <span class="smllogo"><img src="images/footer-logo.jpg" alt="mobile-logo" /></span>
+      <span class="smllogo"><img src="/images/footer-logo.jpg" alt="mobile-logo" /></span>
       <a id="wsnavtoggle" class="wsanimated-arrow"><span></span></a>
     </div>
 
@@ -17,34 +17,19 @@
 
 
         <!-- HEADER LOGO -->
-        <div class="desktoplogo"><a href="#hero-1" class="logo-black"><img src="images/white-logo-f.png"
+        <div class="desktoplogo"><a href="#hero-1" class="logo-black"><img src="/images/white-logo-f.png"
               alt="header-logo"></a></div>
-        <div class="desktoplogo"><a href="#hero-1" class="logo-white"><img src="images/logo-022.png"
+        <div class="desktoplogo"><a href="#hero-1" class="logo-white"><img src="/images/logo-022.png"
               alt="header-logo"></a></div>
 
 
         <!-- MAIN MENU -->
         <nav class="wsmenu clearfix">
           <ul class="wsmenu-list nav-orange-red-hover">
+{{ range .Site.Menus.main }}
+<li class="nl-simple" aria-haspopup="true"><a href="{{ .URL }}">{{ .Name }}</a></li>
+{{ end }}
 
-
-            <!-- SIMPLE NAVIGATION LINK -->
-            <li class="nl-simple" aria-haspopup="true"><a href="index.html">Home</a></li>
-
-
-            <!-- DROPDOWN MENU -->
-            <li aria-haspopup="true"><a href="#">About</a>
-            </li>
-
-
-            <!-- DROPDOWN MENU -->
-            <li aria-haspopup="true"><a href="#">Services</a>
-            </li> <!-- END DROPDOWN MENU -->
-
-
-            <!-- DROPDOWN MENU -->
-            <li aria-haspopup="true"><a href="#">Blog</a>
-            </li>
 
 
             <!-- HEADER BUTTON -->
