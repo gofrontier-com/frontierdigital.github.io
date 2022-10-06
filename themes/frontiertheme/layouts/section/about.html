@@ -29,6 +29,8 @@
 			</div>
 		</div> -->
 
+		<!-- {{ partial "spinner.html" . }} -->
+
 
 
 
@@ -49,22 +51,16 @@
 				<div class="bg-inner bg-lightgrey inner-page-hero division">
 					<div class="container">
 
-
 						<!-- ABOUT-2 TITLE -->
 						<div class="row justify-content-center">
 							<div class="col-md-10 col-lg-8">
-								<div class="about-2-title">
+								<div class="about-2-title about-head">
 
-									<!-- Title -->
-									<h2 class="h2-xl" style="color:#fff;text-align:center;">About us</h2>
-
-									<!-- Text -->
-									<p class="p-xl" style="color:#fff;">We are a boutique Cloud Platform and DevOps professional services company.
-									</p>
+{{ with .Site.GetPage "section" "title" }}{{ .Content }}{{ end }}
 
 								</div>
 							</div>
-						</div>    <!-- END ABOUT-2 TITLE -->
+						</div> <!-- END ABOUT-2 TITLE -->
 
 
 						<!-- ABOUT-2 IMAGES -->
@@ -104,21 +100,9 @@
 					<!-- SECTION TITLE -->
 					<div class="row justify-content-center">
 						<div class="col-lg-10 col-xl-8">
-							<div class="section-title title-01 mb-70">
+							<div class="section-title title-01 mb-70 better">
 
-								<!-- Title -->
-								<h2 class="h2-md">We’re Better. Here’s Why…</h2>
-
-								<!-- Text -->
-								<p class="p-xl">We were born out of the realisation that companies moving to the Cloud had often found their pathway blocked, or were spending more than they expected trying to navigate the system. We want to use our experience to change the way software is developed; your developers should play a key role in your organisation’s journey to achieve your vision and break new ground.</p>
-
-<p class="p-xl">Our goal is that every employee can use the software in a way that makes their job easier and more efficient. We can help you use the whole system, ensuring you are getting the very best value from your chosen Cloud product.</p>
-
-<p class="p-xl">Frontier Digital is your partner for DevOps, Sys Admin and Cloud. (Link to blog 2) Working together we build secure, scalable and highly available environments and automate repetitive tasks. While creating quality systems is an important part of our job, the most important, is coaching your team to use these systems. The most sophisticated technology in the world, is only a success if the end user understands how to make the most of it.</p>
-
-<p class="p-xl">We are a team of Cloud software enthusiasts who have come together to do things a little differently, to disrupt the largely inaccessible software world, ensuring that no one in your team is left behind. We are an approachable bunch, so even if you aren’t totally sure you are ready for our help yet, we would love to have a chat with you and steer you in the right direction.</p>
-
-								</p>
+								{{ with .Site.GetPage "section" "better" }}{{ .Content }}{{ end }}
 
 							</div>
 						</div>
@@ -266,7 +250,7 @@
 
 									<!-- Team Member Photo -->
 									<div class="team-member-photo">
-										<img class="img-fluid" src="images/team-1.jpg" alt="team-member-foto">
+										<img class="img-fluid" src="/images/team-1.jpg" alt="team-member-foto">
 									</div>
 
 									<!-- Team Member Data -->
@@ -287,7 +271,7 @@
 
 									<!-- Team Member Photo -->
 									<div class="team-member-photo">
-										<img class="img-fluid" src="images/team-2.jpg" alt="team-member-foto">
+										<img class="img-fluid" src="/images/team-2.jpg" alt="team-member-foto">
 									</div>
 
 									<!-- Team Member Data -->
@@ -308,7 +292,7 @@
 
 									<!-- Team Member Photo -->
 									<div class="team-member-photo">
-										<img class="img-fluid" src="images/team-3.jpg" alt="team-member-foto">
+										<img class="img-fluid" src="/images/team-3.jpg" alt="team-member-foto">
 									</div>
 
 									<!-- Team Member Data -->
@@ -329,7 +313,7 @@
 
 									<!-- Team Member Photo -->
 									<div class="team-member-photo">
-										<img class="img-fluid" src="images/team-4.jpg" alt="team-member-foto">
+										<img class="img-fluid" src="/images/team-4.jpg" alt="team-member-foto">
 									</div>
 
 									<!-- Team Member Data -->
@@ -350,7 +334,7 @@
 
 									<!-- Team Member Photo -->
 									<div class="team-member-photo">
-										<img class="img-fluid" src="images/team-5.jpg" alt="team-member-foto">
+										<img class="img-fluid" src="/images/team-5.jpg" alt="team-member-foto">
 									</div>
 
 									<!-- Team Member Data -->
@@ -371,7 +355,7 @@
 
 									<!-- Team Member Photo -->
 									<div class="team-member-photo">
-										<img class="img-fluid" src="images/team-6.jpg" alt="team-member-foto">
+										<img class="img-fluid" src="/images/team-6.jpg" alt="team-member-foto">
 									</div>
 
 									<!-- Team Member Data -->
@@ -434,7 +418,7 @@
 							<div class="col">
 								<div class="brand-logo">
 									<a href="#">
-										<img class="img-fluid" src="images/brand-1.png" alt="brand-logo" />
+										<img class="img-fluid" src="/images/brand-1.png" alt="brand-logo" />
 									</a>
 								</div>
 							</div>
@@ -444,7 +428,7 @@
 							<div class="col">
 								<div class="brand-logo">
 									<a href="#">
-										<img class="img-fluid" src="images/brand-2.png" alt="brand-logo" />
+										<img class="img-fluid" src="/images/brand-2.png" alt="brand-logo" />
 									</a>
 								</div>
 							</div>
@@ -454,7 +438,7 @@
 							<div class="col">
 								<div class="brand-logo">
 									<a href="#">
-										<img class="img-fluid" src="images/brand-3.png" alt="brand-logo" />
+										<img class="img-fluid" src="/images/brand-3.png" alt="brand-logo" />
 									</a>
 								</div>
 							</div>
@@ -464,7 +448,7 @@
 							<div class="col">
 								<div class="brand-logo">
 									<a href="#">
-										<img class="img-fluid" src="images/brand-4.png" alt="brand-logo" />
+										<img class="img-fluid" src="/images/brand-4.png" alt="brand-logo" />
 									</a>
 								</div>
 							</div>
@@ -474,7 +458,7 @@
 							<div class="col">
 								<div class="brand-logo">
 									<a href="#">
-										<img class="img-fluid" src="images/brand-5.png" alt="brand-logo" />
+										<img class="img-fluid" src="/images/brand-5.png" alt="brand-logo" />
 									</a>
 								</div>
 							</div>
@@ -497,101 +481,7 @@
 
 
 
-			<!-- FOOTER-4
-			============================================= -->
-			<footer id="footer-4" class="footer division">
-				<div class="container">
-
-
-<!-- FOOTER CONTENT -->
-					<div class="row">
-
-
-						<!-- FOOTER INFO -->
-						<div class="col-lg-4">
-							<div class="footer-info mb-40">
-
-								<!-- Footer Logo -->
-								<img class="footer-logo mb-25" src="images/footer-logo.jpg" alt="footer-logo">
-
-
-							</div>
-						</div>
-
-
-						<!-- FOOTER LINKS -->
-						<div class="col-sm-12 col-md-6 col-lg-2 col-xl-4">
-							<div class="footer-links mb-40">
-
-								<!-- Title -->
-								<h6 class="h6-xl">Company</h6>
-
-								<!-- Footer Links -->
-								<ul class="foo-links text-secondary clearfix">
-									<li><p class="p-md"><a href="#">About Us</a></p></li>
-									<li><p class="p-md"><a href="#">Services</a></p></li>
-									<li><p class="p-md"><a href="#">Blog</a></p></li>
-									<li><p class="p-md"><a href="#">Contact Us</a></p></li>
-								</ul>
-
-							</div>
-						</div>
-
-
-						<!-- FOOTER LINKS -->
-						<div class="col-sm-12 col-md-6 col-lg-2 col-xl-4">
-							<div class="footer-links mb-40">
-
-								<!-- Title -->
-								<h6 class="h6-xl">Useful Links</h6>
-
-								<!-- Footer List -->
-								<ul class="foo-links text-secondary clearfix">
-									<li><p class="p-md"><a href="#">Terms of Use</a></p></li>
-									<li><p class="p-md"><a href="#">Privacy Policy</a></p></li>
-									<li><p class="p-md"><a href="#">Cookie Policy</a></p></li>
-									<li><p class="p-md"><a href="#">Site Map</a></p></li>
-								</ul>
-
-							</div>
-						</div>
-
-
-
-					</div>	<!-- END FOOTER CONTENT -->
-
-
-					<hr>
-
-
-					<!-- BOTTOM FOOTER -->
-					<div class="bottom-footer">
-						<div class="row row-cols-1 row-cols-md-2 d-flex align-items-center">
-
-
-							<!-- FOOTER COPYRIGHT -->
-							<div class="col">
-								<div class="footer-copyright">
-									<p>&copy; 2022 Frontier Digital.</p>
-								</div>
-							</div>
-
-
-							<!-- BOTTOM FOOTER LINKS -->
-							<div class="col">
-								<ul class="bottom-footer-list text-secondary text-end">
-									<li class="first-li"><p><a href="#">Facebook</a></p></li>
-									<li><p><a href="#">LinkedIn</a></p></li>
-								</ul>
-							</div>
-
-
-						</div>  <!-- End row -->
-					</div>	<!-- BOTTOM FOOTER -->
-
-
-				</div>
-			</footer>	<!-- FOOTER-4 -->
+			{{ partial "footer.html" . }}
 
 
 
@@ -601,42 +491,7 @@
 
 
 
-		<!-- EXTERNAL SCRIPTS
-		============================================= -->
-		<script src="js/jquery-3.6.0.min.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-		<script src="js/modernizr.custom.js"></script>
-		<script src="js/jquery.easing.js"></script>
-		<script src="js/jquery.appear.js"></script>
-		<script src="js/jquery.scrollto.js"></script>
-		<script src="js/menu.js"></script>
-		<script src="js/imagesloaded.pkgd.min.js"></script>
-		<script src="js/isotope.pkgd.min.js"></script>
-		<script src="js/owl.carousel.min.js"></script>
-		<script src="js/jquery.magnific-popup.min.js"></script>
-		<script src="js/quick-form.js"></script>
-		<script src="js/request-form.js"></script>
-		<script src="js/jquery.validate.min.js"></script>
-		<script src="js/jquery.ajaxchimp.min.js"></script>
-		<script src="js/wow.js"></script>
-
-		<!-- Custom Script -->
-		<script src="js/custom.js"></script>
-
-		<!-- Google Analytics: Change UA-XXXXX-X to be your site's ID. Go to http://www.google.com/analytics/ for more information. -->
-		<!--
-		<script>
-			var _gaq = _gaq || [];
-			_gaq.push(['_setAccount', 'UA-XXXXX-X']);
-			_gaq.push(['_trackPageview']);
-
-			(function() {
-				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-			})();
-		</script>
-		-->
+		{{ partial "extscripts.html" . }}
 
 
 

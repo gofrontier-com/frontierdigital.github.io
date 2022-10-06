@@ -16,7 +16,7 @@
 
 
 
-		{{ partial "spinner.html" }}
+		{{ partial "spinner.html" . }}
 
 
 
@@ -89,18 +89,9 @@
 			 				<div class="txt-block left-column wow fadeInRight">
 
 					 			<!-- TEXT BOX -->
-								<div class="txt-box mb-30">
+								<div class="txt-box mb-30 section">
 
-									<!-- Title -->
-									<h5 class="h5-lg">Cloud Based Automation</h5>
-
-									<!-- Text -->
-									<p class="p-lg">So how do you know when it’s time to leap into the cloud? One of the big indicators, is feeling bogged down in too many manual processes.
-									Emailing multiple versions of a document to different colleagues; waiting for your files upload to the CRM; manually adding new email to your contact list….
-									This can take up hours every week, and that’s time you don’t have to spare if you when you have big plans for the future.
-									</br>
-									If you are an in house developer, you could be finding that common tasks taking up a lot of your time and you are looking for a way to streamline your workload** We can help.
-									</p>
+									{{ with .Site.GetPage "section" "section3" }}{{ .Content }}{{ end }}
 
 								</div>
 
@@ -140,15 +131,9 @@
 									</div>
 
 									<!-- Text -->
-									<div class="fbox-txt-center">
+									<div class="fbox-txt-center section">
 
-										<!-- Title -->
-										<h5 class="h5-md">Already using Cloud Software?</h5>
-
-										<!-- Text -->
-										<p class="p-lg">If you are already on the cloud, but aren’t quite content with your systems, we can help re-structure your cloud to ensure it is actually doing what you need it to do.
-										We can review your infrastructure to help you utilising as much as you can for the best cost. Let’s get your staff trained up on how to make the most of automation and the other features your software provides.
-										</p>
+										{{ with .Site.GetPage "section" "featurebox1" }}{{ .Content }}{{ end }}
 
 									</div>
 
@@ -167,17 +152,9 @@
 									</div>
 
 									<!-- Text -->
-									<div class="fbox-txt-center">
+									<div class="fbox-txt-center section">
 
-										<!-- Title -->
-										<h5 class="h5-md">Superior Security</h5>
-
-										<!-- Text -->
-										<p class="p-lg">Cybersecurity is (or should be!) one of the biggest concerns for every business. Our cloud software protects against unauthorised access and enables you to easily limit access to files and folders on a ‘need to know’ basis.
-										</br>
-										The security stands up to cyber threats and doesn’t rely on your staff to review and update security protocols. This includes much higher change of data recovery should you loose data, when compared with on premise systems.
-
-										</p>
+										{{ with .Site.GetPage "section" "featurebox2" }}{{ .Content }}{{ end }}
 
 									</div>
 
@@ -196,17 +173,9 @@
 									</div>
 
 									<!-- Text -->
-									<div class="fbox-txt-center">
+									<div class="fbox-txt-center section">
 
-										<!-- Title -->
-										<h5 class="h5-md">DevOps Orchestration</h5>
-
-										<!-- Text -->
-										<p class="p-lg">Managing dependencies for applications down to the infrastructure level can be tiresome; Frontier Digital focus on solutions to maintain a full layered environment.
-										When you need more than automation, we implement orchestration that reduces production issues and speed up time to market.
-
-
-										</p>
+										{{ with .Site.GetPage "section" "featurebox3" }}{{ .Content }}{{ end }}
 
 									</div>
 
@@ -295,36 +264,9 @@
 
 						<!-- TEXT BLOCK -->
 						<div class="col-lg-6 order-last order-lg-2">
-							<div class="txt-block slim-column left-column wow fadeInRight">
+							<div class="txt-block slim-column left-column wow fadeInRight epic">
 
-								<!-- Title -->
-								<h2 class="h2-xs">Why Frontier Digital?</h2>
-
-								<!-- List -->
-								<ul class="simple-list">
-
-									<li class="list-item">
-										<p class="p-lg">We guarantee a low MTTR (mean time to recovery when problems arise)</p>
-									</li>
-
-									<li class="list-item">
-										<p class="p-lg">Guard against unexpected bills through FinOps </p>
-									</li>
-
-									<li class="list-item">
-										<p class="p-lg">We are with you throughout your journey, supporting your growth
-										</p>
-									</li>
-
-									<li class="list-item">
-										<p class="p-lg">Approachable, friendly team
-										</p>
-									</li>
-
-									<li class="list-item">
-										<p class="p-lg">We make sure you are actually using everything you pay for
-										</p>
-									</li>
+								{{ with .Site.GetPage "section" "whyfd" }}{{ .Content }}{{ end }}
 
 
 								</ul>
@@ -410,27 +352,27 @@
 
 								<!-- Brand Logo Image -->
 								<div class="brand-logo">
-									<img class="img-fluid" src="images/brand-1.png" alt="brand-logo" />
+									<img class="img-fluid" src="/images/brand-1.png" alt="brand-logo" />
 								</div>
 
 								<!-- Brand Logo Image -->
 								<div class="brand-logo">
-									<img class="img-fluid" src="images/brand-2.png" alt="brand-logo" />
+									<img class="img-fluid" src="/images/brand-2.png" alt="brand-logo" />
 								</div>
 
 								<!-- Brand Logo Image -->
 								<div class="brand-logo">
-									<img class="img-fluid" src="images/brand-3.png" alt="brand-logo" />
+									<img class="img-fluid" src="/images/brand-3.png" alt="brand-logo" />
 								</div>
 
 								<!-- Brand Logo Image -->
 								<div class="brand-logo">
-									<img class="img-fluid" src="images/brand-4.png" alt="brand-logo" />
+									<img class="img-fluid" src="/images/brand-4.png" alt="brand-logo" />
 								</div>
 
 								<!-- Brand Logo Image -->
 								<div class="brand-logo">
-									<img class="img-fluid" src="images/brand-5.png" alt="brand-logo">
+									<img class="img-fluid" src="/images/brand-5.png" alt="brand-logo">
 								</div>
 
 							</div>	<!-- End Brands Carousel -->
@@ -455,42 +397,7 @@
 
 
 
-		<!-- EXTERNAL SCRIPTS
-		============================================= -->
-		<script src="js/jquery-3.6.0.min.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-		<script src="js/modernizr.custom.js"></script>
-		<script src="js/jquery.easing.js"></script>
-		<script src="js/jquery.appear.js"></script>
-		<script src="js/jquery.scrollto.js"></script>
-		<script src="js/menu.js"></script>
-		<script src="js/imagesloaded.pkgd.min.js"></script>
-		<script src="js/isotope.pkgd.min.js"></script>
-		<script src="js/owl.carousel.min.js"></script>
-		<script src="js/jquery.magnific-popup.min.js"></script>
-		<script src="js/quick-form.js"></script>
-		<script src="js/request-form.js"></script>
-		<script src="js/jquery.validate.min.js"></script>
-		<script src="js/jquery.ajaxchimp.min.js"></script>
-		<script src="js/wow.js"></script>
-
-		<!-- Custom Script -->
-		<script src="js/custom.js"></script>
-
-		<!-- Google Analytics: Change UA-XXXXX-X to be your site's ID. Go to http://www.google.com/analytics/ for more information. -->
-		<!--
-		<script>
-			var _gaq = _gaq || [];
-			_gaq.push(['_setAccount', 'UA-XXXXX-X']);
-			_gaq.push(['_trackPageview']);
-
-			(function() {
-				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-			})();
-		</script>
-		-->
+		{{ partial "extscripts.html" . }}
 
 
 
