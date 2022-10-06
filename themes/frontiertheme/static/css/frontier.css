@@ -1,0 +1,52 @@
+.hero h2 {
+    font-size: 3.375rem;
+}
+
+.hero p {
+    font-size: 1.35rem;
+}
+
+.section h5 {
+    font-size: 1.625rem;
+}
+
+.section p {
+    font-size: 1.1875rem;
+}
+
+.epic ul {
+  list-style-type: disc;
+  margin-left: 15px;
+}
+
+.epic ul li ul {
+    list-style-type: none;
+}
+
+.epic h2 {
+    font-size: 3.125rem;
+}
+
+.epic ul li  {
+font-size: 1.1875rem;
+margin-bottom: 1rem;
+}
+
+.better h2 {
+    font-size: 3.375rem;
+}
+
+.better p {
+    font-size: 1.25rem;
+}
+
+.about-head h2 {
+    font-size: 3.375rem;
+    color: white;
+    text-align: center;
+}
+
+.about-head p {
+    font-size: 1.25rem;
+    color: white;
+}

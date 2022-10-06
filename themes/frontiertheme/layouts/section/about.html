@@ -1,5 +1,502 @@
-{{ define "main" }}
-<div class="container">
-  <p>Frontier Digital are a boutique DevOps solutions company, specialising in fully automated processes.</p>
-</div>
-{{ end }}
+<!DOCTYPE html>
+<!-- OLMO - Software, App, SaaS & Startup Landing Pages Pack design by DSAThemes (http://www.dsathemes.com) -->
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en">
+
+
+	{{ partial "head.html" . }}
+
+
+
+	<body>
+
+
+
+
+		<!-- PRELOADER SPINNER
+		============================================= -->
+		<!-- <div id="loading" class="skyblue-loading">
+			<div id="loading-center">
+				<div id="loading-center-absolute">
+					<div class="object" id="object_one"></div>
+					<div class="object" id="object_two"></div>
+					<div class="object" id="object_three"></div>
+					<div class="object" id="object_four"></div>
+				</div>
+			</div>
+		</div> -->
+
+		<!-- {{ partial "spinner.html" . }} -->
+
+
+
+
+		<!-- PAGE CONTENT
+		============================================= -->
+		<div id="page" class="page">
+
+
+
+
+			{{ partial "header.html" . }}
+
+
+
+			<!-- ABOUT-2
+			============================================= -->
+			<section id="about-2" class="about-section">
+				<div class="bg-inner bg-lightgrey inner-page-hero division">
+					<div class="container">
+
+						<!-- ABOUT-2 TITLE -->
+						<div class="row justify-content-center">
+							<div class="col-md-10 col-lg-8">
+								<div class="about-2-title about-head">
+
+{{ with .Site.GetPage "section" "title" }}{{ .Content }}{{ end }}
+
+								</div>
+							</div>
+						</div> <!-- END ABOUT-2 TITLE -->
+
+
+						<!-- ABOUT-2 IMAGES -->
+						<div class="about-2-images">
+							<div class="row row-cols-1 row-cols-md-2">
+
+
+								<!-- IMAGES-1 -->
+								<div class="col col-md-5">
+									<img class="img-fluid" src="/images/about-1-img.jpg" alt="about-image">
+								</div>
+
+
+								<!-- IMAGES-2 -->
+								<div class="col col-md-7">
+									<img class="img-fluid" src="/images/about-2-img.jpg" alt="about-image">
+								</div>
+
+
+							</div>	 <!-- End row -->
+						</div>    <!-- END ABOUT-2 IMAGES -->
+
+
+					</div>	  <!-- End container -->
+				</div>     <!-- End bg-inner -->
+			</section>	<!-- END ABOUT-2 -->
+
+
+
+
+			<!-- FEATURES-4
+			============================================= -->
+			<section id="features-4" class="wide-60 features-section division">
+				<div class="container">
+
+
+					<!-- SECTION TITLE -->
+					<div class="row justify-content-center">
+						<div class="col-lg-10 col-xl-8">
+							<div class="section-title title-01 mb-70 better">
+
+								{{ with .Site.GetPage "section" "better" }}{{ .Content }}{{ end }}
+
+							</div>
+						</div>
+					</div>
+
+
+
+
+
+				</div>     <!-- End container -->
+			</section>	<!-- END FEATURES-4 -->
+
+
+
+
+			<!-- DIVIDER LINE -->
+			<hr class="divider">
+
+
+
+
+			<!-- STATISTIC-4
+			============================================= -->
+			<div id="statistic-4" class="pt-70 pb-70 statistic-section division">
+				<div class="container">
+
+
+					<!-- STATISTIC-4 WRAPPER -->
+					<div class="statistic-4-wrapper">
+						<div class="row justify-content-md-center row-cols-1 row-cols-md-3">
+
+
+							<!-- STATISTIC BLOCK #1 -->
+							<div id="sb-4-1" class="col">
+								<div class="statistic-block pr-15 d-flex align-items-center wow fadeInUp">
+
+									<!-- Digit -->
+									<div class="statistic-block-digit">
+										<h2 class="h2-lg statistic-number"><span class="count-element">65</span>K</h2>
+									</div>
+
+									<!-- Text -->
+									<div class="statistic-block-txt grey-color">
+										<h6 class="h6-md">Porta justo integer and velna vitae auctor</h6>
+									</div>
+
+								</div>
+							</div>
+
+
+							<!-- STATISTIC BLOCK #2 -->
+							<div id="sb-4-2" class="col">
+								<div class="statistic-block pr-15 d-flex align-items-center wow fadeInUp">
+
+									<!-- Digit -->
+									<div class="statistic-block-digit">
+										<h2 class="h2-lg statistic-number"><span class="count-element">54</span>%</h2>
+									</div>
+
+									<!-- Text -->
+									<div class="statistic-block-txt grey-color">
+										<h6 class="h6-md">Ligula magna suscipit vitae and rutrum</h6>
+									</div>
+
+								</div>
+							</div>
+
+
+							<!-- STATISTIC BLOCK #3 -->
+							<div id="sb-4-3" class="col">
+								<div class="statistic-block pr-15 d-flex align-items-center wow fadeInUp">
+
+									<!-- Digit -->
+									<div class="statistic-block-digit">
+										<h2 class="h2-lg statistic-number">
+											<span class="count-element">4</span>.<span class="count-element">86</span>
+										</h2>
+									</div>
+
+									<!-- Text -->
+									<div class="statistic-block-txt grey-color">
+										<h6 class="h6-md">Sagittis congue augue egestas an egestas</h6>
+									</div>
+
+								</div>
+							</div>
+
+
+						</div>
+					</div>	<!-- END STATISTIC-4 WRAPPER -->
+
+
+				</div>	 <!-- End container -->
+			</div>	 <!-- END STATISTIC-4 -->
+
+
+
+
+			<!-- DIVIDER LINE -->
+			<hr class="divider">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			<!-- TEAM-1
+			============================================= -->
+			<section id="team-1" class="wide-50 team-section division">
+				<div class="container">
+
+
+					<!-- SECTION TITLE -->
+					<div class="row justify-content-center">
+						<div class="col-lg-10 col-xl-8">
+							<div class="section-title title-01 mb-80">
+
+								<!-- Title -->
+								<h2 class="h2-md">Meet the Team</h2>
+							</div>
+						</div>
+					</div>
+
+
+					<!-- TEAM MEMBERS HOLDER -->
+					<div class="team-members-wrapper text-center">
+						<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3">
+
+
+							<!-- TEAM MEMBER #1 -->
+							<div class="col">
+								<div class="team-member wow fadeInUp">
+
+									<!-- Team Member Photo -->
+									<div class="team-member-photo">
+										<img class="img-fluid" src="/images/team-1.jpg" alt="team-member-foto">
+									</div>
+
+									<!-- Team Member Data -->
+									<div class="team-member-data">
+										<h5 class="h5-sm">Craig Anderson</h5>
+										<p class="p-lg">Founder and Co-CEO</p>
+										<p class="p-lg">Craig has been a leader in professional services and consultancy for over 7 years. He has a background in engineering and development across industries.</p>
+										<p class="p-lg tm-social"><a href="#" class="text-secondary">@jonatanbarnes</a></p>
+									</div>
+
+								</div>
+							</div>	<!-- END TEAM MEMBER #1 -->
+
+
+							<!-- TEAM MEMBER #2 -->
+							<div class="col">
+								<div class="team-member wow fadeInUp">
+
+									<!-- Team Member Photo -->
+									<div class="team-member-photo">
+										<img class="img-fluid" src="/images/team-2.jpg" alt="team-member-foto">
+									</div>
+
+									<!-- Team Member Data -->
+									<div class="team-member-data">
+										<h5 class="h5-sm">Fraser Davidson</h5>
+										<p class="p-lg">Founder & Co-CEO</p>
+										<p class="p-lg">Fraser has spent the last 10 years building public, private and hybrid cloud platforms across sectors. His background is in running traditional enterprise web platforms, before moving into software development and then naturally into cloud and DevOps.</p>
+										<p class="p-lg tm-social text-secondary"><a href="#">@jamiebartlett</a></p>
+									</div>
+
+								</div>
+							</div>	<!-- END TEAM MEMBER #2 -->
+
+
+							<!-- TEAM MEMBER #3 -->
+							<div class="col">
+								<div class="team-member wow fadeInUp">
+
+									<!-- Team Member Photo -->
+									<div class="team-member-photo">
+										<img class="img-fluid" src="/images/team-3.jpg" alt="team-member-foto">
+									</div>
+
+									<!-- Team Member Data -->
+									<div class="team-member-data">
+										<h5 class="h5-sm">Anthony Gibbons</h5>
+										<p class="p-lg">Founding Director & Lead</p>
+										<p class="p-lg">Anthony has over 20 years experience in IT across the public and private sector. He has most recently specialised in DevOps in the financial services sector.</p>
+										<p class="p-lg tm-social text-secondary"><a href="#">@matthewanderson</a></p>
+									</div>
+
+								</div>
+							</div>	<!-- END TEAM MEMBER #3 -->
+
+
+							<!-- TEAM MEMBER #4 -->
+							<div class="col">
+								<div class="team-member wow fadeInUp">
+
+									<!-- Team Member Photo -->
+									<div class="team-member-photo">
+										<img class="img-fluid" src="/images/team-4.jpg" alt="team-member-foto">
+									</div>
+
+									<!-- Team Member Data -->
+									<div class="team-member-data">
+										<h5 class="h5-sm">Neil Cowlin</h5>
+										<p class="p-lg">Founding Director & Lead</p>
+										<p class="p-lg">Neil has been building web platforms on both public and private clouds for the last 10 years, with a passion for observability, application delivery, and container orchestration.</p>
+										<p class="p-lg tm-social text-secondary"><a href="#">@megancoleman</a></p>
+									</div>
+
+								</div>
+							</div>	<!-- END TEAM MEMBER #4 -->
+
+
+							<!-- TEAM MEMBER #5 -->
+							<div class="col">
+								<div class="team-member wow fadeInUp">
+
+									<!-- Team Member Photo -->
+									<div class="team-member-photo">
+										<img class="img-fluid" src="/images/team-5.jpg" alt="team-member-foto">
+									</div>
+
+									<!-- Team Member Data -->
+									<div class="team-member-data">
+										<h5 class="h5-sm">Janine Anderson</h5>
+										<p class="p-lg">Executive Assistant</p>
+										<p class="p-lg">Janine has over 10 years experience in Human Resources in public and private sectors.</p>
+										<p class="p-lg tm-social text-secondary"><a href="#">@charlottejohnson</a></p>
+									</div>
+
+								</div>
+							</div>	<!-- END TEAM MEMBER #5 -->
+
+
+							<!-- TEAM MEMBER #6 -->
+							<div class="col">
+								<div class="team-member wow fadeInUp">
+
+									<!-- Team Member Photo -->
+									<div class="team-member-photo">
+										<img class="img-fluid" src="/images/team-6.jpg" alt="team-member-foto">
+									</div>
+
+									<!-- Team Member Data -->
+									<div class="team-member-data">
+										<h5 class="h5-sm">Colleen Davidson</h5>
+										<p class="p-lg">Executive Assistant</p>
+										<p class="p-lg">Colleen has several years’ experience in starting and running a business. Her background is in languages and education.</p>
+										<p class="p-lg tm-social text-secondary"><a href="#">@oliviasteiner</a></p>
+									</div>
+
+								</div>
+							</div>	<!-- END TEAM MEMBER #6 -->
+
+
+
+
+						</div>   <!-- End row -->
+					</div>	<!-- TEAM MEMBERS HOLDER -->
+
+
+				</div>	    <!-- End container -->
+			</section>	<!-- END TEAM-1 -->
+
+
+
+
+
+
+
+
+
+			<!-- DIVIDER LINE -->
+			<hr class="divider">
+
+
+
+
+			<!-- BRANDS-2
+			============================================= -->
+			<div id="brands-2" class="wide-70 brands-section division">
+				<div class="container">
+
+
+					<!-- BRANDS TITLE -->
+					<div class="row justify-content-center">
+						<div class="col-lg-8">
+							<div class="brands-title text-center">
+								<p class="p-xl">We work with</p>
+							</div>
+						</div>
+					</div>
+
+
+					<!-- BRANDS-2 WRAPPER -->
+					<div class="brands-2-wrapper">
+						<div class="row justify-content-md-center row-cols-2 row-cols-sm-3 row-cols-md-5">
+
+
+							<!-- BRAND LOGO IMAGE -->
+							<div class="col">
+								<div class="brand-logo">
+									<a href="#">
+										<img class="img-fluid" src="/images/brand-1.png" alt="brand-logo" />
+									</a>
+								</div>
+							</div>
+
+
+							<!-- BRAND LOGO IMAGE -->
+							<div class="col">
+								<div class="brand-logo">
+									<a href="#">
+										<img class="img-fluid" src="/images/brand-2.png" alt="brand-logo" />
+									</a>
+								</div>
+							</div>
+
+
+							<!-- BRAND LOGO IMAGE -->
+							<div class="col">
+								<div class="brand-logo">
+									<a href="#">
+										<img class="img-fluid" src="/images/brand-3.png" alt="brand-logo" />
+									</a>
+								</div>
+							</div>
+
+
+							<!-- BRAND LOGO IMAGE -->
+							<div class="col">
+								<div class="brand-logo">
+									<a href="#">
+										<img class="img-fluid" src="/images/brand-4.png" alt="brand-logo" />
+									</a>
+								</div>
+							</div>
+
+
+							<!-- BRAND LOGO IMAGE -->
+							<div class="col">
+								<div class="brand-logo">
+									<a href="#">
+										<img class="img-fluid" src="/images/brand-5.png" alt="brand-logo" />
+									</a>
+								</div>
+							</div>
+
+
+
+
+
+						</div>
+					</div>  <!-- END BRANDS-2 WRAPPER -->
+
+
+				</div>     <!-- End container -->
+			</div>	<!-- END BRANDS-2 -->
+
+
+
+
+
+
+
+
+			{{ partial "footer.html" . }}
+
+
+
+
+		</div>	<!-- END PAGE CONTENT -->
+
+
+
+
+		{{ partial "extscripts.html" . }}
+
+
+
+	</body>
+
+
+
+</html>

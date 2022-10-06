@@ -1,15 +1,59 @@
-  <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-    <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-      <img src="/images/horizontal.png" height="32">
-    </a>
+<!-- HEADER
+			============================================= -->
+<header id="header" class="header tra-menu navbar-light">
+  <div class="header-wrapper">
 
-    <ul class="nav nav-pills">
-      {{ $currentPage := . }}
-      {{ range .Site.Menus.main }}
-      <li class="navbar-item {{if or ($currentPage.IsMenuCurrent " main" .) ($currentPage.HasMenuCurrent "main" .) }}
-        active{{end}}">
-        <a class="nav-link" href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
-      </li>
-      {{ end }}
-    </ul>
-  </header>
+
+    <!-- MOBILE HEADER -->
+    <div class="wsmobileheader clearfix">
+      <span class="smllogo"><img src="/images/footer-logo.jpg" alt="mobile-logo" /></span>
+      <a id="wsnavtoggle" class="wsanimated-arrow"><span></span></a>
+    </div>
+
+
+    <!-- NAVIGATION MENU -->
+    <div class="wsmainfull menu clearfix">
+      <div class="wsmainwp clearfix">
+
+
+        <!-- HEADER LOGO -->
+        <div class="desktoplogo"><a href="#hero-1" class="logo-black"><img src="/images/white-logo-f.png"
+              alt="header-logo"></a></div>
+        <div class="desktoplogo"><a href="#hero-1" class="logo-white"><img src="/images/logo-022.png"
+              alt="header-logo"></a></div>
+
+
+        <!-- MAIN MENU -->
+        <nav class="wsmenu clearfix">
+          <ul class="wsmenu-list nav-orange-red-hover">
+{{ range .Site.Menus.main }}
+<li class="nl-simple" aria-haspopup="true"><a href="{{ .URL }}">{{ .Name }}</a></li>
+{{ end }}
+
+
+
+            <!-- HEADER BUTTON -->
+            <li class="nl-simple" aria-haspopup="true">
+              <a href="#content-4" class="btn btn-tra-white orange-red-hover last-link">Contact</a>
+            </li>
+
+
+            <!-- HEADER SOCIAL LINKS
+									<li class="nl-simple white-color header-socials ico-20 clearfix" aria-haspopup="true">
+										<span><a href="#" class="ico-facebook"><span class="flaticon-facebook"></span></a></span>
+										<span><a href="#" class="ico-twitter"><span class="flaticon-twitter"></span></a></span>
+										<span><a href="#" class="ico-instagram"><span class="flaticon-instagram"></span></a></span>
+										<span><a href="#" class="ico-dribbble"><span class="flaticon-dribbble"></span></a></span>
+									</li> -->
+
+
+          </ul>
+        </nav> <!-- END MAIN MENU -->
+
+
+      </div>
+    </div> <!-- END NAVIGATION MENU -->
+
+
+  </div> <!-- End header-wrapper -->
+</header> <!-- END HEADER -->

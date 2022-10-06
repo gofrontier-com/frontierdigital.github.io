@@ -1,17 +1,31 @@
 baseURL = 'https://frontier-digital.co.uk'
 languageCode = 'en-gb'
-title = 'Frontier Digital'
+title = 'Frontier Digital - Cloud Platform and Devops Professional Services Company'
 theme = 'frontiertheme'
 
 enableRobotsTXT = true
 
 [menu]
 [[menu.main]]
+identifier = "home"
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
 identifier = "about"
 name = "About"
 url = "/about/"
+weight = 4
 
-# [[menu.main]]
-# identifier = "posts"
-# name = "Posts"
-# url = "/posts/"
+[[menu.main]]
+identifier = "services"
+name = "Services"
+url = "#"
+weight = 2
+
+[[menu.main]]
+identifier = "blog"
+name = "Blog"
+url = "#"
+weight = 3
