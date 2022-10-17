@@ -30,7 +30,7 @@ We will remotely maintain your software, meaning less need for in-house and on-p
 
 Our goal is to work with businesses in the early stages of development who, like us, want to do things a little differently. We see many of our clients as young, growing businesses who understand the value a high-quality, bespoke cloud system can bring to their work – businesses who are as excited and motivated to grow with the support of powerful technology.
 
-We work with clients from a range of sectors. For us, it’s not about what you dobut how you think. A high volume and turnover of clients will never be our model. We want to build long-term relationships and focus on full coaching and implementation.
+We work with clients from a range of sectors. For us, it’s not about what you do but how you think. A high volume and turnover of clients will never be our model. We want to build long-term relationships and focus on full coaching and implementation.
 
 Our software is carefully tailored to the needs of each client, and we provide real value by designing software that is both flexible and accessible.
 
