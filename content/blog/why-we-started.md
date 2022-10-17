@@ -9,6 +9,7 @@ draft: true
 type: post
 category: Frontier Digital News
 author: Craig Anderson
+authorImage: "/images/craig.jpg"
 ---
 
 # Why we started

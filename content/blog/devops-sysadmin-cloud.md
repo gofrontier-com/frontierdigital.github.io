@@ -9,6 +9,7 @@ draft: true
 type: post
 category: blog post
 author: Craig Anderson
+authorImage: "/images/craig.jpg"
 ---
 
 # DevOps, Sys Admin, the Cloud – Explained

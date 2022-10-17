@@ -3,6 +3,7 @@ title: "Why Frontier Digital?"
 date: 2022-06-07T00:00:00+00:00
 publishDate: 2022-06-07T00:00:00+00:00
 author: Craig Anderson
+authorImage: "/images/craig.jpg"
 image: "/images/whyfd.jpg"
 tags: []
 comments: false

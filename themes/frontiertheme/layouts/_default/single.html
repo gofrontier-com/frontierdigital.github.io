@@ -34,7 +34,7 @@
                 <div class="post-data clearfix">
                   <!-- Author Avatar -->
                   <div class="post-author-avatar">
-                    <img src="/images/review-author-7.jpg" alt="author-avatar" />
+                    <img src="{{ .Params.AuthorImage }}" alt="author-avatar" />
                   </div>
 
                   <!-- Author Data -->
@@ -110,7 +110,7 @@
               <!-- BLOG POST IMAGE -->
               <div class="blog-post-img">
                 <div class="hover-overlay">
-                  <img class="img-fluid" src="images/blog/post-1-img.jpg" alt="blog-post-image" />
+                  <img class="img-fluid" src="{{ .Params.Image }}" alt="blog-post-image" />
                   <div class="item-overlay"></div>
                 </div>
               </div>
