@@ -7,197 +7,194 @@
 <html lang="en">
 
 
-	{{ partial "head.html" . }}
+{{ partial "head.html" . }}
 
 
 
-	<body>
-
-
-
-
-		{{ partial "spinner.html" . }}
+<body>
 
 
 
 
-		<!-- PAGE CONTENT
+  {{ partial "spinner.html" . }}
+
+
+
+
+  <!-- PAGE CONTENT
 		============================================= -->
-		<div id="page" class="page">
+  <div id="page" class="page">
 
 
 
 
-			{{ partial "header.html" . }}
+    {{ partial "header.html" . }}
 
 
 
 
-			{{ partial "index/hero.html" . }}
-<!-- CONTENT-666
+    {{ partial "home/hero.html" . }}
+    <!-- CONTENT-666
 			============================================= -->
-			<section id="content-6" class="content-6 wide-60 content-section division">
-			 	<div class="container">
-			 		<div class="row d-flex align-items-center">
+    <section id="content-6" class="content-6 wide-60 content-section division">
+      <div class="container">
+        <div class="row d-flex align-items-center">
 
 
-						<!-- TEXT BLOCK -->
-						<div class="col-md-6 col-lg-5">
-							<div class="txt-block left-column wow fadeInLeft">
+          <!-- TEXT BLOCK -->
+          <div class="col-md-6 col-lg-5">
+            <div class="txt-block left-column wow fadeInLeft">
 
-								<!-- TEXT BOX -->
-								<div class="txt-box mb-30 section">
-									{{ with .Site.GetPage "section" "section1" }}{{ .Content }}{{ end }}
-								</div>
+              <!-- TEXT BOX -->
+              <div class="txt-box mb-30 section">
+                {{ with .Site.GetPage "section" "home/section1" }}{{ .Content }}{{ end }}
+              </div>
 
-							</div>
-						</div>
-						<!-- IMAGE BLOCK -->
-						<div class="col-md-6 col-lg-7">
-							<div class="img-block right-column wow fadeInLeft">
-								<img class="img-fluid" src="images/img-20.png" alt="content-image">
-							</div>
-						</div>
-
-
-						</div>
-						<div class="col-md-12 section">
-													{{ with .Site.GetPage "section" "section2" }}{{ .Content }}{{ end }}
-<div>
+            </div>
+          </div>
+          <!-- IMAGE BLOCK -->
+          <div class="col-md-6 col-lg-7">
+            <div class="img-block right-column wow fadeInLeft">
+              <img class="img-fluid" src="images/img-20.png" alt="content-image">
+            </div>
+          </div>
 
 
+        </div>
+        <div class="col-md-12 section">
+          {{ with .Site.GetPage "section" "home/section2" }}{{ .Content }}{{ end }}
+          <div>
 
-					</div>     <!-- End row -->
-			 	</div>      <!-- End container -->
-			</section>	 <!-- END CONTENT-6 -->
-<!-- CONTENT-6
+
+
+          </div> <!-- End row -->
+        </div> <!-- End container -->
+    </section> <!-- END CONTENT-6 -->
+    <!-- CONTENT-6
 			============================================= -->
-			<section id="content-6" class="content-6 wide-60 content-section division">
-			 	<div class="container">
-			 		<div class="row d-flex align-items-center">
+    <section id="content-6" class="content-6 wide-60 content-section division">
+      <div class="container">
+        <div class="row d-flex align-items-center">
 
-								 			<!-- IMAGE BLOCK -->
-						<div class="col-md-6 col-lg-7">
-							<div class="img-block right-column wow fadeInLeft">
-								<img class="img-fluid" src="images/img-20.png" alt="content-image">
-							</div>
-						</div>
-
-
-			 			<!-- TEXT BLOCK -->
-			 			<div class="col-md-6 col-lg-5">
-			 				<div class="txt-block left-column wow fadeInRight">
-
-					 			<!-- TEXT BOX -->
-								<div class="txt-box mb-30 section">
-
-									{{ with .Site.GetPage "section" "section3" }}{{ .Content }}{{ end }}
-
-								</div>
+          <!-- IMAGE BLOCK -->
+          <div class="col-md-6 col-lg-7">
+            <div class="img-block right-column wow fadeInLeft">
+              <img class="img-fluid" src="images/img-20.png" alt="content-image">
+            </div>
+          </div>
 
 
+          <!-- TEXT BLOCK -->
+          <div class="col-md-6 col-lg-5">
+            <div class="txt-block left-column wow fadeInRight">
 
-					 		</div>
-					 	</div>
+              <!-- TEXT BOX -->
+              <div class="txt-box mb-30 section">
+
+                {{ with .Site.GetPage "section" "home/section3" }}{{ .Content }}{{ end }}
+
+              </div>
 
 
 
+            </div>
+          </div>
 
 
-					</div>     <!-- End row -->
-			 	</div>      <!-- End container -->
-			</section>	 <!-- END CONTENT-6 -->
 
 
-			<!-- FEATURES-2
+
+        </div> <!-- End row -->
+      </div> <!-- End container -->
+    </section> <!-- END CONTENT-6 -->
+
+
+    <!-- FEATURES-2
 			============================================= -->
-			<section id="features-2" class="wide-60 features-section division">
-				<div class="container">
+    <section id="features-2" class="wide-60 features-section division">
+      <div class="container">
 
 
-					<!-- FEATURES-2 WRAPPER -->
-					<div class="fbox-2-wrapper text-center">
-						<div class="row row-cols-1 row-cols-md-3">
+        <!-- FEATURES-2 WRAPPER -->
+        <div class="fbox-2-wrapper text-center">
+          <div class="row row-cols-1 row-cols-md-3">
 
 
-							<!-- FEATURE BOX #1 -->
-		 					<div class="col">
-		 						<div class="fbox-2 mb-40 wow fadeInUp">
+            <!-- FEATURE BOX #1 -->
+            <div class="col">
+              <div class="fbox-2 mb-40 wow fadeInUp">
 
-		 							<!-- Icon -->
-									<div class="fbox-ico-center ico-65 shape-ico orange-red-color">
-		 								<img class="ico-bkg" src="images/ico-bkg.png" alt="ico-bkg">
-										<span class="flaticon-double-click"></span>
-									</div>
+                <!-- Icon -->
+                <div class="fbox-ico-center ico-65 shape-ico orange-red-color">
+                  <img class="ico-bkg" src="images/ico-bkg.png" alt="ico-bkg">
+                  <span class="flaticon-double-click"></span>
+                </div>
 
-									<!-- Text -->
-									<div class="fbox-txt-center section">
+                <!-- Text -->
+                <div class="fbox-txt-center section">
 
-										{{ with .Site.GetPage "section" "featurebox1" }}{{ .Content }}{{ end }}
+                  {{ with .Site.GetPage "section" "home/featurebox1" }}{{ .Content }}{{ end }}
 
-									</div>
+                </div>
 
-		 						</div>
-		 					</div>
-
-
-		 					<!-- FEATURE BOX #2 -->
-		 					<div class="col">
-		 						<div class="fbox-2 mb-40 wow fadeInUp">
-
-		 							<!-- Icon -->
-									<div class="fbox-ico-center ico-65 shape-ico orange-red-color">
-		 								<img class="ico-bkg" src="images/ico-bkg.png" alt="ico-bkg">
-										<span class="flaticon-web-browser"></span>
-									</div>
-
-									<!-- Text -->
-									<div class="fbox-txt-center section">
-
-										{{ with .Site.GetPage "section" "featurebox2" }}{{ .Content }}{{ end }}
-
-									</div>
-
-		 						</div>
-		 					</div>
+              </div>
+            </div>
 
 
-		 					<!-- FEATURE BOX #3 -->
-		 					<div class="col">
-		 						<div class="fbox-2 mb-40 wow fadeInUp">
+            <!-- FEATURE BOX #2 -->
+            <div class="col">
+              <div class="fbox-2 mb-40 wow fadeInUp">
 
-		 							<!-- Icon -->
-									<div class="fbox-ico-center ico-65 shape-ico orange-red-color">
-		 								<img class="ico-bkg" src="images/ico-bkg.png" alt="ico-bkg">
-										<span class="flaticon-web-programming"></span>
-									</div>
+                <!-- Icon -->
+                <div class="fbox-ico-center ico-65 shape-ico orange-red-color">
+                  <img class="ico-bkg" src="images/ico-bkg.png" alt="ico-bkg">
+                  <span class="flaticon-web-browser"></span>
+                </div>
 
-									<!-- Text -->
-									<div class="fbox-txt-center section">
+                <!-- Text -->
+                <div class="fbox-txt-center section">
 
-										{{ with .Site.GetPage "section" "featurebox3" }}{{ .Content }}{{ end }}
+                  {{ with .Site.GetPage "section" "home/featurebox2" }}{{ .Content }}{{ end }}
 
-									</div>
+                </div>
 
-		 						</div>
-		 					</div>
-
-
-		 				</div>
-					</div>    <!-- END FEATURES-2 WRAPPER -->
+              </div>
+            </div>
 
 
-				</div>     <!-- End container -->
-			</section>	<!-- END FEATURES-2 -->
+            <!-- FEATURE BOX #3 -->
+            <div class="col">
+              <div class="fbox-2 mb-40 wow fadeInUp">
+
+                <!-- Icon -->
+                <div class="fbox-ico-center ico-65 shape-ico orange-red-color">
+                  <img class="ico-bkg" src="images/ico-bkg.png" alt="ico-bkg">
+                  <span class="flaticon-web-programming"></span>
+                </div>
+
+                <!-- Text -->
+                <div class="fbox-txt-center section">
+
+                  {{ with .Site.GetPage "section" "home/featurebox3" }}{{ .Content }}{{ end }}
+
+                </div>
+
+              </div>
+            </div>
 
 
+          </div>
+        </div> <!-- END FEATURES-2 WRAPPER -->
 
 
-			<!-- DIVIDER LINE -->
-			<hr class="divider">
+      </div> <!-- End container -->
+    </section> <!-- END FEATURES-2 -->
 
 
 
+
+    <!-- DIVIDER LINE -->
+    <hr class="divider">
 
 
 
@@ -214,38 +211,38 @@
 
 
 
-			<!-- CONTENT-2A
+
+
+
+    <!-- CONTENT-2A
 			============================================= -->
-			<section id="content-2a" class="content-2 bg-04 wide-60 content-section division">
-				<div class="container">
-					<div class="row d-flex align-items-center">
+    <section id="content-2a" class="content-2 bg-04 wide-60 content-section division">
+      <div class="container">
+        <div class="row d-flex align-items-center">
 
 
-						<!-- IMAGE BLOCK -->
-						<div class="col-md-5 col-lg-6">
-							<div class="rel img-block left-column wow fadeInRight">
-								<img class="img-fluid" src="images/img-10.png" alt="content-image">
-							</div>
-						</div>
+          <!-- IMAGE BLOCK -->
+          <div class="col-md-5 col-lg-6">
+            <div class="rel img-block left-column wow fadeInRight">
+              <img class="img-fluid" src="images/img-10.png" alt="content-image">
+            </div>
+          </div>
 
-				<!-- TEXT BLOCK -->
-				<div class="col-md-7 col-lg-6">
-					<div class="txt-block right-column white-color wow fadeInLeft epic">
+          <!-- TEXT BLOCK -->
+          <div class="col-md-7 col-lg-6">
+            <div class="txt-block right-column white-color wow fadeInLeft epic">
 
-						{{ with .Site.GetPage "section" "epic" }}{{ .Content }}{{ end }}
+              {{ with .Site.GetPage "section" "home/epic" }}{{ .Content }}{{ end }}
 
-					</div>
-				</div> <!-- END TEXT BLOCK -->
-
-
-
-
-					</div>	   <!-- End row -->
-				</div>	   <!-- End container -->
-			</section>	<!-- END CONTENT-2A -->
+            </div>
+          </div> <!-- END TEXT BLOCK -->
 
 
 
+
+        </div> <!-- End row -->
+      </div> <!-- End container -->
+    </section> <!-- END CONTENT-2A -->
 
 
 
@@ -255,153 +252,158 @@
 
 
 
-			<!-- CONTENT-1
+
+
+
+    <!-- CONTENT-1
 			============================================= -->
-			<section id="content-1" class="content-1 bg-snow wide-60 content-section division">
-				<div class="container">
-					<div class="row d-flex align-items-center">
+    <section id="content-1" class="content-1 bg-snow wide-60 content-section division">
+      <div class="container">
+        <div class="row d-flex align-items-center">
 
 
-						<!-- TEXT BLOCK -->
-						<div class="col-lg-6 order-last order-lg-2">
-							<div class="txt-block slim-column left-column wow fadeInRight epic">
+          <!-- TEXT BLOCK -->
+          <div class="col-lg-6 order-last order-lg-2">
+            <div class="txt-block slim-column left-column wow fadeInRight epic">
 
-								{{ with .Site.GetPage "section" "whyfd" }}{{ .Content }}{{ end }}
-
-
-								</ul>
-								<div class="btns-group mb-20">
-									<a href="#" class="btn btn-orange-red tra-white-hover mr-15">Need more convincing?</a>
-									</a>
-								</div>
-							</div>
-						</div>	<!-- END TEXT BLOCK -->
+              {{ with .Site.GetPage "section" "home/whyfd" }}{{ .Content }}{{ end }}
 
 
-						<!-- CB WRAPPER -->
-						<div class="col-lg-6 order-first order-lg-2">
-							<div class="cb-wrapper">
-
-								<!-- CB HOLDER -->
-								<div class="cb-holder wow fadeInLeft">
-
-									<!-- CB BOX #1 -->
-									<div class="cb-single-box">
-										<p class="p-lg cb-header">Cups of coffee in the last week</p>
-										<h2 class="h2-title-xs statistic-number"><sup>+</sup><span class="count-element">784</span></h2>
-										<p class="p-md mt-5 ico-10">
-											<span class="violet-red-color"><span class="flaticon-"></span> 4.6%</span> vs last 7 days
-										</p>
-									</div>
-
-									<hr class="divider">
-
-									<!-- CB BOX #2 -->
-									<div class="cb-single-box">
-										<ul class="simple-list">
-											<li class="list-item">
-												<p class="p-md">We work with a small number of key clients meaning we give you our full attention</p>
-											</li>
-
-											<li class="list-item">
-												<p class="p-md">Reliable systems created by high levels of redundancy</p>
-											</li>
-										</ul>
-									</div>
-
-									<!-- CB BOX #3 -->
-									<div class="cb-single-box cb-box-rounded bg-violet-red white-color mt-25">
-										<p class="p-lg">Highly experienced in Devops and Sys Admin</p>
-									</div>
-
-								</div>	<!-- END CB HOLDER -->
+              </ul>
+              <div class="btns-group mb-20">
+                <a href="#" class="btn btn-orange-red tra-white-hover mr-15">Need more convincing?</a>
+                </a>
+              </div>
+            </div>
+          </div> <!-- END TEXT BLOCK -->
 
 
-								<!-- CB SHAPE -->
-								<div class="cb-shape-1">
-									<img class="img-fluid" src="images/bg-shape-1.png" alt="content-image">
-								</div>
+          <!-- CB WRAPPER -->
+          <div class="col-lg-6 order-first order-lg-2">
+            <div class="cb-wrapper">
 
-								<!-- CB SHAPE -->
-								<div class="cb-shape-2">
-									<img class="img-fluid" src="images/bg-shape-2.png" alt="content-image">
-								</div>
+              <!-- CB HOLDER -->
+              <div class="cb-holder wow fadeInLeft">
+
+                <!-- CB BOX #1 -->
+                <div class="cb-single-box">
+                  <p class="p-lg cb-header">Cups of coffee in the last week</p>
+                  <h2 class="h2-title-xs statistic-number"><sup>+</sup><span class="count-element">784</span></h2>
+                  <p class="p-md mt-5 ico-10">
+                    <span class="violet-red-color"><span class="flaticon-"></span> 4.6%</span> vs last 7 days
+                  </p>
+                </div>
+
+                <hr class="divider">
+
+                <!-- CB BOX #2 -->
+                <div class="cb-single-box">
+                  <ul class="simple-list">
+                    <li class="list-item">
+                      <p class="p-md">We work with a small number of key clients meaning we give you our full attention
+                      </p>
+                    </li>
+
+                    <li class="list-item">
+                      <p class="p-md">Reliable systems created by high levels of redundancy</p>
+                    </li>
+                  </ul>
+                </div>
+
+                <!-- CB BOX #3 -->
+                <div class="cb-single-box cb-box-rounded bg-violet-red white-color mt-25">
+                  <p class="p-lg">Highly experienced in Devops and Sys Admin</p>
+                </div>
+
+              </div> <!-- END CB HOLDER -->
 
 
-							</div>
-						</div>	<!-- END CB WRAPPER -->
+              <!-- CB SHAPE -->
+              <div class="cb-shape-1">
+                <img class="img-fluid" src="images/bg-shape-1.png" alt="content-image">
+              </div>
+
+              <!-- CB SHAPE -->
+              <div class="cb-shape-2">
+                <img class="img-fluid" src="images/bg-shape-2.png" alt="content-image">
+              </div>
 
 
-					</div>	   <!-- End row -->
-				</div>	   <!-- End container -->
-			</section>	<!-- END CONTENT-1 -->
+            </div>
+          </div> <!-- END CB WRAPPER -->
+
+
+        </div> <!-- End row -->
+      </div> <!-- End container -->
+    </section> <!-- END CONTENT-1 -->
 
 
 
 
-						<!-- BRANDS-1
+    <!-- BRANDS-1
 			============================================= -->
-			<div id="brands-1" class="wide-100 brands-section division">
-				<div class="container">
-					<div class="row">
-						<div class="col text-center">
-<h5 class="h5-md">We work with</h5><p></p>
+    <div id="brands-1" class="wide-100 brands-section division">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <h5 class="h5-md">We work with</h5>
+            <p></p>
 
-							<!-- Brands Carousel -->
-							<div class="owl-carousel brands-carousel">
+            <!-- Brands Carousel -->
+            <div class="owl-carousel brands-carousel">
 
-								<!-- Brand Logo Image -->
-								<div class="brand-logo">
-									<img class="img-fluid" src="/images/brand-1.png" alt="brand-logo" />
-								</div>
+              <!-- Brand Logo Image -->
+              <div class="brand-logo">
+                <img class="img-fluid" src="/images/brand-1.png" alt="brand-logo" />
+              </div>
 
-								<!-- Brand Logo Image -->
-								<div class="brand-logo">
-									<img class="img-fluid" src="/images/brand-2.png" alt="brand-logo" />
-								</div>
+              <!-- Brand Logo Image -->
+              <div class="brand-logo">
+                <img class="img-fluid" src="/images/brand-2.png" alt="brand-logo" />
+              </div>
 
-								<!-- Brand Logo Image -->
-								<div class="brand-logo">
-									<img class="img-fluid" src="/images/brand-3.png" alt="brand-logo" />
-								</div>
+              <!-- Brand Logo Image -->
+              <div class="brand-logo">
+                <img class="img-fluid" src="/images/brand-3.png" alt="brand-logo" />
+              </div>
 
-								<!-- Brand Logo Image -->
-								<div class="brand-logo">
-									<img class="img-fluid" src="/images/brand-4.png" alt="brand-logo" />
-								</div>
+              <!-- Brand Logo Image -->
+              <div class="brand-logo">
+                <img class="img-fluid" src="/images/brand-4.png" alt="brand-logo" />
+              </div>
 
-								<!-- Brand Logo Image -->
-								<div class="brand-logo">
-									<img class="img-fluid" src="/images/brand-5.png" alt="brand-logo">
-								</div>
+              <!-- Brand Logo Image -->
+              <div class="brand-logo">
+                <img class="img-fluid" src="/images/brand-5.png" alt="brand-logo">
+              </div>
 
-							</div>	<!-- End Brands Carousel -->
-
-
-						</div>
-					</div>  <!-- End row -->
-				</div>	<!-- End container -->
-			</div>	<!-- END BRANDS-1 -->
+            </div> <!-- End Brands Carousel -->
 
 
-
-			<!-- DIVIDER LINE -->
-			<hr class="divider">
+          </div>
+        </div> <!-- End row -->
+      </div> <!-- End container -->
+    </div> <!-- END BRANDS-1 -->
 
 
 
-            {{ partial "footer.html" }}
-
-		</div>	<!-- END PAGE CONTENT -->
-
+    <!-- DIVIDER LINE -->
+    <hr class="divider">
 
 
 
-		{{ partial "extscripts.html" . }}
+    {{ partial "footer.html" }}
+
+  </div> <!-- END PAGE CONTENT -->
 
 
 
-	</body>
+
+  {{ partial "extscripts.html" . }}
+
+
+
+</body>
 
 
 

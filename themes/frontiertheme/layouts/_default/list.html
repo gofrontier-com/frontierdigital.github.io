@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+{{ partial "head.html" . }}
+
+<body>
+
+
+
+
+  {{ partial "spinner.html" }}
+
+
+  <!-- PAGE CONTENT
+		============================================= -->
+  <div id="page" class="page">
+
+
+
+
+    {{ partial "headerdark.html" . }}
+
+
+
+    <!-- BLOG POSTS LISTING
+			============================================= -->
+    <section id="blog-page" class="bg-snow wide-50 inner-page-hero blog-page-section division">
+      <div class="container">
+
+
+        <!-- SECTION TITLE -->
+        <div class="row justify-content-center">
+          <div class="col-md-10 col-lg-8">
+            <div class="section-title title-02 mb-85">
+              <h2 class="h2-xs">Welcome to our blog</h2>
+            </div>
+          </div>
+        </div>
+
+        {{ range first 1 .Pages.ByPublishDate }}
+        <!-- FEATURED POST -->
+        <div class="rel blog-post-wide featured-post">
+          <div class="row d-flex align-items-center">
+
+            <!-- Featured Badge -->
+            <div class="featured-badge ico-25 bg-whitesmoke yellow-color">
+              <span class="flaticon-star-1"></span>
+            </div>
+
+            <!-- BLOG POST IMAGE -->
+            <div class="col-lg-7 blog-post-img">
+              <div class="hover-overlay">
+                <img class="img-fluid" src="{{ .Params.Image }}" alt="blog-post-image" />
+                <div class="item-overlay"></div>
+              </div>
+            </div>
+
+            <!-- BLOG POST TEXT -->
+            <div class="col-lg-5 blog-post-txt">
+
+              <!-- Post Tag -->
+              <p class="p-md post-tag">{{ .Params.Type }} &ensp;|&ensp; {{ .Date.Format "Jan 2, 2006" }}</p>
+
+              <!-- Post Link -->
+              <h5 class="h5-xl">
+                <a href="{{ .Permalink }}">{{ .Title }}</a>
+              </h5>
+
+              <!-- Text -->
+              <p class="p-lg">
+                {{ .Summary }}
+              </p>
+
+              <!-- Post Meta -->
+              <!-- <div class="post-meta"> -->
+              <!--   <p class="p-md">0 Comments</p> -->
+              <!-- </div> -->
+
+            </div> <!-- END BLOG POST TEXT -->
+
+          </div> <!-- End row -->
+        </div> <!-- END FEATURED POST -->
+        {{ end }}
+
+
+        <!-- POSTS WRAPPER -->
+        <div class="posts-wrapper">
+
+
+          <!-- BLOG POSTS CATEGORY -->
+          <div class="row">
+            <div class="col-md-12">
+              <h5 class="h5-lg posts-category">Latest Articles</h5>
+            </div>
+          </div>
+
+
+          <!-- BLOG POSTS -->
+          <div class="row">
+            <div class="col gallery-items-list">
+              <div class="masonry-wrap grid-loaded">
+
+
+                {{ range after 1 .Pages.ByPublishDate }}
+                <!-- BLOG POST #1 -->
+                <div class="blog-3-post masonry-image">
+
+                  <!-- BLOG POST IMAGE -->
+                  <div class="blog-post-img">
+                    <div class="hover-overlay">
+                      <img class="img-fluid" src="{{ .Params.Image }}" alt="blog-post-image" />
+                      <div class="item-overlay"></div>
+                    </div>
+                  </div>
+
+                  <!-- BLOG POST TEXT -->
+                  <div class="blog-post-txt">
+
+                    <!-- Post Tag -->
+                    <p class="p-md post-tag">{{ .Params.Type }} &ensp;|&ensp; {{ .Date.Format "Jan 2, 2006" }}</p>
+
+                    <!-- Post Link -->
+                    <h5 class="h5-md">
+                      <a href="{{ .Permalink }}">
+                        {{ .Title }}
+                      </a>
+                    </h5>
+
+                    <!-- Post Meta -->
+                    <!-- <div class="post-meta"> -->
+                    <!--   <p class="p-md">0 Comments</p> -->
+                    <!-- </div> -->
+
+                  </div> <!-- END BLOG POST TEXT -->
+
+                </div> <!-- END BLOG POST #1 -->
+                {{ end }}
+
+                <!-- {{ $post_paginator := .Paginate (.Pages) 6 }} -->
+                <!-- {{ range $post_paginator.Pages }} -->
+                <!-- {{- .Title -}} -->
+                <!-- {{end}} -->
+
+
+
+
+              </div>
+            </div>
+          </div> <!-- END BLOG POSTS -->
+
+
+        </div> <!-- END POSTS WRAPPER -->
+
+
+      </div> <!-- End container -->
+    </section> <!-- END BLOG POSTS LISTING -->
+
+
+
+
+    <!-- PAGE PAGINATION
+			============================================= 
+			<div class="bg-snow pb-100 page-pagination division">
+				<div class="container">
+					<div class="row">	
+						<div class="col-md-12">
+							<nav aria-label="Page navigation example">
+								<ul class="pagination ico-20 justify-content-center">
+							    	<li class="page-item disabled">
+								      <a class="page-link" href="#" tabindex="-1">
+								        <span class="flaticon-back"></span>
+								      </a>
+								    </li>
+								    <li class="page-item active" aria-current="page"><a class="page-link" href="#">1</a></li>
+								    <li class="page-item"><a class="page-link" href="#">2</a></li>
+								    <li class="page-item"><a class="page-link" href="#">3</a></li>
+								    <li class="page-item">
+								      <a class="page-link" href="#" aria-label="Next">
+								        <span class="flaticon-next"></span>
+								      </a>
+							    	</li>
+								</ul>
+							</nav>
+						</div>
+					</div>  <!-- End row -->
+  </div> <!-- End container -->
+  </div> <!-- END PAGE PAGINATION -->
+
+
+
+
+
+
+
+
+
+  {{ partial "footer.html" }}
+
+
+
+  </div> <!-- END PAGE CONTENT -->
+
+
+
+  {{ partial "extscripts.html" }}
+
+
+
+</body>
+
+
+
+</html>
