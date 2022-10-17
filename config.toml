@@ -5,6 +5,8 @@ theme = 'frontiertheme'
 
 enableRobotsTXT = true
 
+disqusShortname = 'frontierdigital'
+
 [menu]
 [[menu.main]]
 identifier = "home"
@@ -21,11 +23,11 @@ weight = 4
 [[menu.main]]
 identifier = "services"
 name = "Services"
-url = "#"
+url = "/services/"
 weight = 2
 
 [[menu.main]]
 identifier = "blog"
 name = "Blog"
-url = "#"
+url = "/blog/"
 weight = 3

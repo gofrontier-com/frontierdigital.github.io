@@ -1,5 +1,199 @@
-{{ define "main" }}
-<div class="container">
-  <p>This from the single page template</p>
-</div>
-{{ end }}
+<!DOCTYPE html>
+<!-- OLMO - Software, App, SaaS & Startup Landing Pages Pack design by DSAThemes (http://www.dsathemes.com) -->
+<!--[if lt IE 7]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en">
+{{ partial "head.html" . }}
+
+<body>
+  {{ partial "spinner.html" . }}
+  <!-- PAGE CONTENT
+		============================================= -->
+  <div id="page" class="page">
+    {{ partial "headerdark.html" . }}
+
+    <!-- SINGLE POST
+			============================================= -->
+    <section id="single-post" class="wide-100 inner-page-hero single-post-section division">
+      <div class="container">
+        <!-- SINGLE POST CONTENT -->
+        <div class="row">
+          <div class="col-lg-10 offset-lg-1">
+            <div class="single-post-wrapper">
+              <!-- SINGLE POST TITLE -->
+              <div class="single-post-title">
+                <!-- CATEGORY -->
+                <p class="p-sm post-tag txt-500 txt-upcase">{{ .Type }}</p>
+
+                <!-- TITLE -->
+                <h2 class="h2-md">{{ .Title }}</h2>
+
+                <!-- POST DATA -->
+                <div class="post-data clearfix">
+                  <!-- Author Avatar -->
+                  <div class="post-author-avatar">
+                    <img src="{{ .Params.AuthorImage }}" alt="author-avatar" />
+                  </div>
+
+                  <!-- Author Data -->
+                  <div class="post-author">
+                    <h6 class="h6-xl">{{ .Params.Author }}</h6>
+                    <p class="p-md">
+                      Posted on {{ .PublishDate.Format "Jan 2, 2006"}}
+                    </p>
+                  </div>
+                </div>
+                <!-- END POST DATA -->
+              </div>
+              <!-- END SINGLE POST TITLE -->
+
+              <!-- BLOG POST TEXT -->
+              <div class="single-post-txt blog">{{ .Content }}</div>
+              <!-- END BLOG POST TEXT -->
+
+              <!-- SINGLE POST SHARE LINKS -->
+              <div class="row post-share-links d-flex align-items-center">
+                <!-- POST TAGS -->
+                <div class="col-md-9 col-xl-8 post-tags-list">
+                  <span><a href="#">Life</a></span>
+                  <span><a href="#">Ideas</a></span>
+                  <span><a href="#">Story</a></span>
+                  <span><a href="#">Web Design</a></span>
+                </div>
+
+                <!-- POST SHARE ICONS -->
+                <div class="col-md-3 col-xl-4 post-share-list text-end">
+                  <ul class="share-social-icons ico-25 text-center clearfix">
+                    <li>
+                      <a href="#" class="share-ico"><span class="flaticon-twitter"></span></a>
+                    </li>
+                    <li>
+                      <a href="#" class="share-ico"><span class="flaticon-facebook"></span></a>
+                    </li>
+                    <li>
+                      <a href="#" class="share-ico"><span class="flaticon-bookmark"></span></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <!-- END SINGLE POST SHARE -->
+            </div>
+          </div>
+        </div>
+        <!-- END SINGLE POST CONTENT -->
+      </div>
+      <!-- End container -->
+    </section>
+    <!-- END SINGLE POST -->
+
+    <!-- BLOG-1
+			============================================= -->
+    <section id="blog-1" class="bg-whitesmoke-gradient wide-60 blog-section division">
+      <div class="container">
+        <!-- SECTION TITLE -->
+        <div class="row justify-content-center">
+          <div class="col-lg-10 col-xl-8">
+            <div class="section-title title-01 mb-70">
+              <h2 class="h2-md">Keep Reading...</h2>
+            </div>
+          </div>
+        </div>
+
+        <!-- BLOG POSTS -->
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+          {{ range where .Site.Pages "Type" "post" }}
+          <!-- BLOG POST #1 -->
+          <div class="col">
+            <div id="bp-1-1" class="blog-1-post mb-40 wow fadeInUp">
+              <!-- BLOG POST IMAGE -->
+              <div class="blog-post-img">
+                <div class="hover-overlay">
+                  <img class="img-fluid" src="{{ .Params.Image }}" alt="blog-post-image" />
+                  <div class="item-overlay"></div>
+                </div>
+              </div>
+
+              <!-- BLOG POST TEXT -->
+              <div class="blog-post-txt">
+                <!-- Post Tag -->
+                <p class="p-md post-tag">
+                  {{ .Type }} &ensp;|&ensp; June 12, 2021
+                </p>
+
+                <!-- Post Link -->
+                <h5 class="h5-md">
+                  <a href="{{ .Permalink }}">{{ .Title }}</a>
+                </h5>
+
+                <!-- Text -->
+                <p class="p-lg">{{ .Summary }}</p>
+
+                <!-- Post Meta -->
+                <div class="post-meta">
+                  <p class="p-md">9 Comments</p>
+                </div>
+              </div>
+              <!-- END BLOG POST TEXT -->
+            </div>
+          </div>
+          <!-- END  BLOG POST #1 -->
+          {{ end }}
+        </div>
+        <!-- END BLOG POSTS -->
+      </div>
+      <!-- End container -->
+    </section>
+    <!-- END BLOG-1 -->
+
+    <!-- NEWSLETTER-1
+			============================================= -->
+    <section id="newsletter-1" class="newsletter-section division">
+      <div class="container">
+        <div class="newsletter-wrapper bg-white">
+          <div class="row d-flex align-items-center row-cols-1 row-cols-lg-2">
+            <!-- NEWSLETTER TEXT -->
+            <div class="col">
+              <div class="newsletter-txt pr-20">
+                <h4 class="h4-xl">
+                  Stay up to date with our news, ideas and updates
+                </h4>
+              </div>
+            </div>
+
+            <!-- NEWSLETTER FORM -->
+            <div class="col">
+              <form class="newsletter-form">
+                <div class="input-group">
+                  <input type="email" autocomplete="off" class="form-control" placeholder="Your email address" required
+                    id="s-email" />
+                  <span class="input-group-btn">
+                    <button type="submit" class="btn btn-md btn-skyblue tra-grey-hover">
+                      Subscribe Now
+                    </button>
+                  </span>
+                </div>
+
+                <!-- Newsletter Form Notification -->
+                <label for="s-email" class="form-notification"></label>
+              </form>
+            </div>
+            <!-- END NEWSLETTER FORM -->
+          </div>
+          <!-- End row -->
+        </div>
+        <!-- End newsletter-wrapper -->
+      </div>
+      <!-- End container -->
+    </section>
+    <!-- END NEWSLETTER-1 -->
+
+    {{ template "_internal/disqus.html" . }} {{ partial "footer.html" . }}
+  </div>
+  <!-- END PAGE CONTENT -->
+
+  {{ partial "extscripts.html" . }}
+</body>
+
+</html>
