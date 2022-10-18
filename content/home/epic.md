@@ -3,7 +3,7 @@
 Our experienced team can work with yours From Base Camp To Summit. We will scale your Cloud Platform using Kubernetes and by expanding to new edge locations, reducing latency.
 
 - Base camp
-  - Architecural standards
+  - Architectural standards
   - RBAC Defined
   - Basic Infrastructure as Code
 - Camp 1
