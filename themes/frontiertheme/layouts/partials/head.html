@@ -1,97 +1,186 @@
 <head>
-
-  <meta charset="utf-8">
+  <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="author" content="DSAThemes" />
-  <meta name="description"
-    content="Frontier Digital - Bespoke Cloud based and DevOps systems software developer, integrator and coach" />
-  <meta name="keywords" content="DevOps, cloud, azure, cyber security">
+  <meta
+    name="description"
+    content="Frontier Digital - Bespoke Cloud based and DevOps systems software developer, integrator and coach"
+  />
+  <meta name="keywords" content="DevOps, cloud, azure, cyber security" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <!-- SITE TITLE -->
   <title>{{ .Title }}</title>
 
   <!-- FAVICON AND TOUCH ICONS -->
-  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-  <link rel="icon" href="/favicon.ico" type="image/x-icon">
-  <link rel="apple-touch-icon" sizes="152x152" href="images/apple-touch-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="images/apple-touch-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="images/apple-touch-icon-76x76.png">
-  <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-  <link rel="icon" href="images/apple-touch-icon.png" type="image/x-icon">
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+  <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+  <link
+    rel="apple-touch-icon"
+    sizes="152x152"
+    href="images/apple-touch-icon-152x152.png"
+  />
+  <link
+    rel="apple-touch-icon"
+    sizes="120x120"
+    href="images/apple-touch-icon-120x120.png"
+  />
+  <link
+    rel="apple-touch-icon"
+    sizes="76x76"
+    href="images/apple-touch-icon-76x76.png"
+  />
+  <link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
+  <link rel="icon" href="images/apple-touch-icon.png" type="image/x-icon" />
 
   <!-- GOOGLE FONTS -->
-  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap"
+    rel="stylesheet"
+  />
 
   <!-- BOOTSTRAP CSS -->
-  <link href="/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/css/bootstrap.min.css" rel="stylesheet" />
 
   <!-- FONT ICONS -->
-  <link href="/css/flaticon.css" rel="stylesheet">
+  <link href="/css/flaticon.css" rel="stylesheet" />
 
   <!-- PLUGINS STYLESHEET -->
-  <link href="/css/menu.css" rel="stylesheet">
-  <link id="effect" href="/css/dropdown-effects/fade-down.css" media="all" rel="stylesheet">
-  <link href="/css/magnific-popup.css" rel="stylesheet">
-  <link href="/css/owl.carousel.min.css" rel="stylesheet">
-  <link href="/css/owl.theme.default.min.css" rel="stylesheet">
+  <link href="/css/menu.css" rel="stylesheet" />
+  <link
+    id="effect"
+    href="/css/dropdown-effects/fade-down.css"
+    media="all"
+    rel="stylesheet"
+  />
+  <link href="/css/magnific-popup.css" rel="stylesheet" />
+  <link href="/css/owl.carousel.min.css" rel="stylesheet" />
+  <link href="/css/owl.theme.default.min.css" rel="stylesheet" />
 
   <!-- ON SCROLL ANIMATION -->
-  <link href="/css/animate.css" rel="stylesheet">
+  <link href="/css/animate.css" rel="stylesheet" />
 
   <!-- TEMPLATE CSS -->
-  <link href="/css/style.css" rel="stylesheet">
-  <link href="/css/frontier.css" rel="stylesheet">
+  <link href="/css/style.css" rel="stylesheet" />
+  <link href="/css/frontier.css" rel="stylesheet" />
 
   <!-- RESPONSIVE CSS -->
-  <link href="/css/responsive.css" rel="stylesheet">
+  <link href="/css/responsive.css" rel="stylesheet" />
 
-
+  <script
+    id="Cookiebot"
+    src="https://consent.cookiebot.com/uc.js"
+    data-cbid="cf364c43-071d-4332-84f3-f504a842bd1c"
+    data-blockingmode="auto"
+    type="text/javascript"
+  ></script>
   {{ if hugo.IsProduction }}
   <script type="text/javascript">
     (function (e, t) {
-      var n = e.amplitude || { _q: [], _iq: {} }; var r = t.createElement("script")
-        ; r.type = "text/javascript"
-        ; r.integrity = "sha384-+EO59vL/X7v6VE2s6/F4HxfHlK0nDUVWKVg8K9oUlvffAeeaShVBmbORTC2D3UF+"
-        ; r.crossOrigin = "anonymous"; r.async = true
-        ; r.src = "https://cdn.amplitude.com/libs/amplitude-8.17.0-min.gz.js"
-        ; r.onload = function () {
-          if (!e.amplitude.runQueuedFunctions) {
-            console.log("[Amplitude] Error: could not load SDK")
-          }
+      var n = e.amplitude || { _q: [], _iq: {} };
+      var r = t.createElement("script");
+      r.type = "text/javascript";
+      r.integrity =
+        "sha384-+EO59vL/X7v6VE2s6/F4HxfHlK0nDUVWKVg8K9oUlvffAeeaShVBmbORTC2D3UF+";
+      r.crossOrigin = "anonymous";
+      r.async = true;
+      r.src = "https://cdn.amplitude.com/libs/amplitude-8.17.0-min.gz.js";
+      r.onload = function () {
+        if (!e.amplitude.runQueuedFunctions) {
+          console.log("[Amplitude] Error: could not load SDK");
         }
-        ; var i = t.getElementsByTagName("script")[0]; i.parentNode.insertBefore(r, i)
-        ; function s(e, t) {
-          e.prototype[t] = function () {
-            this._q.push([t].concat(Array.prototype.slice.call(arguments, 0))); return this
-          }
+      };
+      var i = t.getElementsByTagName("script")[0];
+      i.parentNode.insertBefore(r, i);
+      function s(e, t) {
+        e.prototype[t] = function () {
+          this._q.push([t].concat(Array.prototype.slice.call(arguments, 0)));
+          return this;
+        };
+      }
+      var o = function () {
+        this._q = [];
+        return this;
+      };
+      var a = [
+        "add",
+        "append",
+        "clearAll",
+        "prepend",
+        "set",
+        "setOnce",
+        "unset",
+        "preInsert",
+        "postInsert",
+        "remove",
+      ];
+      for (var c = 0; c < a.length; c++) {
+        s(o, a[c]);
+      }
+      n.Identify = o;
+      var u = function () {
+        this._q = [];
+        return this;
+      };
+      var l = [
+        "setProductId",
+        "setQuantity",
+        "setPrice",
+        "setRevenueType",
+        "setEventProperties",
+      ];
+      for (var p = 0; p < l.length; p++) {
+        s(u, l[p]);
+      }
+      n.Revenue = u;
+      var d = [
+        "init",
+        "logEvent",
+        "logRevenue",
+        "setUserId",
+        "setUserProperties",
+        "setOptOut",
+        "setVersionName",
+        "setDomain",
+        "setDeviceId",
+        "enableTracking",
+        "setGlobalUserProperties",
+        "identify",
+        "clearUserProperties",
+        "setGroup",
+        "logRevenueV2",
+        "regenerateDeviceId",
+        "groupIdentify",
+        "onInit",
+        "logEventWithTimestamp",
+        "logEventWithGroups",
+        "setSessionId",
+        "resetSessionId",
+      ];
+      function v(e) {
+        function t(t) {
+          e[t] = function () {
+            e._q.push([t].concat(Array.prototype.slice.call(arguments, 0)));
+          };
         }
-      var o = function () { this._q = []; return this }
-        ; var a = ["add", "append", "clearAll", "prepend", "set", "setOnce", "unset", "preInsert", "postInsert", "remove"]
-        ; for (var c = 0; c < a.length; c++) { s(o, a[c]) } n.Identify = o; var u = function () {
-          this._q = []
-          ; return this
+        for (var n = 0; n < d.length; n++) {
+          t(d[n]);
         }
-        ; var l = ["setProductId", "setQuantity", "setPrice", "setRevenueType", "setEventProperties"]
-        ; for (var p = 0; p < l.length; p++) { s(u, l[p]) } n.Revenue = u
-        ; var d = ["init", "logEvent", "logRevenue", "setUserId", "setUserProperties", "setOptOut", "setVersionName", "setDomain", "setDeviceId", "enableTracking", "setGlobalUserProperties", "identify", "clearUserProperties", "setGroup", "logRevenueV2", "regenerateDeviceId", "groupIdentify", "onInit", "logEventWithTimestamp", "logEventWithGroups", "setSessionId", "resetSessionId"]
-        ; function v(e) {
-          function t(t) {
-            e[t] = function () {
-              e._q.push([t].concat(Array.prototype.slice.call(arguments, 0)))
-            }
-          }
-          for (var n = 0; n < d.length; n++) { t(d[n]) }
-        } v(n); n.getInstance = function (e) {
-          e = (!e || e.length === 0 ? "$default_instance" : e).toLowerCase()
-            ; if (!Object.prototype.hasOwnProperty.call(n._iq, e)) {
-              n._iq[e] = { _q: [] }; v(n._iq[e])
-            } return n._iq[e]
-        }; e.amplitude = n
+      }
+      v(n);
+      n.getInstance = function (e) {
+        e = (!e || e.length === 0 ? "$default_instance" : e).toLowerCase();
+        if (!Object.prototype.hasOwnProperty.call(n._iq, e)) {
+          n._iq[e] = { _q: [] };
+          v(n._iq[e]);
+        }
+        return n._iq[e];
+      };
+      e.amplitude = n;
     })(window, document);
 
     amplitude.getInstance().init("ceb6feb4b534124b3c7524c41f612791");
-    amplitude.getInstance().logEvent('{{ .Page.Title }}');
+    amplitude.getInstance().logEvent("{{ .Page.Title }}");
   </script>
   {{ end }}
 </head>
