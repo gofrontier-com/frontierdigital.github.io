@@ -288,16 +288,6 @@
                 <!-- CB BOX #1 -->
                 <div id="randombox"></div>
 
-                <script language="text/template">
-                  <div class="cb-single-box">
-                      <p class="p-lg cb-header">{header}</p>
-                      <h2 class="h2-title-xs statistic-number"><sup>+</sup><span class="count-element">{number}</span></h2>
-                      <p class="p-md mt-5 ico-10">
-                        <span class="violet-red-color"><span class="flaticon-"></span> {pct}</span> vs last 7 days
-                      </p>
-                    </div>
-                </script>
-
                 <script>
                   var items = [{
                     header: 'Commits in the last week',
@@ -312,7 +302,13 @@
                     number: 1198,
                     pct: '13.3'
                   }];
-                  var template = document.querySelector('script[language="text/template"]').innerHTML;
+                  var template = ['<div class="cb-single-box">',
+                      '<p class="p-lg cb-header">{header}</p>',
+                      '<h2 class="h2-title-xs statistic-number"><sup>+</sup><span class="count-element">{number}</span></h2>',
+                      '<p class="p-md mt-5 ico-10">',
+                      '<span class="violet-red-color"><span class="flaticon-"></span> {pct}</span> vs last 7 days',
+                      '</p>',
+                      '</div>'].join('');
                   var item = items[Math.floor(Math.random() * items.length)];
                   var randombox = document.getElementById('randombox');
                   randombox.innerHTML = template.replace(/{header}/g, item.header).replace(/{pct}/g, item.pct).replace(/{number}/g, item.number);
