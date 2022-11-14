@@ -1,17 +1,10 @@
-## Start Something Epic
+## Start something epic
 
-Our experienced team can work with yours From Base Camp To Summit. We will scale your Cloud Platform using Kubernetes and by expanding to new edge locations, reducing latency.
+Our experienced team can work with yours along any part of your cloud maturity journey from Base Camp to Summit.
 
-- Base camp
-  - Architectural standards
-  - Access control defined
-- Camp 1
-  - Basic Infrastructure as Code
-- Camp 2
-  - Basic build, test and deploy
-- Camp 3
-  - Basic developer self service
-- Camp 4
-  - Complex Orchestration mechanism to manage dependencies
-- Summit
-  - Full Internal Developer platform
+- **Base Camp**: Architectural standards, compliance policies and access control model defined
+- **Camp 1**: Automated Infrastructure as Code deploy CI/CD pipelines running
+- **Camp 2**: Automated application build, test and deploy CI/CD pipelines running
+- **Camp 3**: SAST, software supply chain security and FinOps tooling integrated into CI/CD pipelines
+- **Camp 4**: Advanced _single source of truth_ deployment mechanism to manage and promote between environments running
+- **Summit**: Full internal developer platform available

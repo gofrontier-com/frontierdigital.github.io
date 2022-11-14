@@ -1,0 +1,26 @@
+<section id="section-3" class="content-6 wide-60 pt-5 content-section division">
+    <div class="container">
+        <div class="row d-flex align-items-center">
+
+            <!-- TEXT BLOCK -->
+            <div class="col-md-6 col-lg-5">
+                <div class="txt-block left-column wow fadeInLeft">
+
+                    <!-- TEXT BOX -->
+                    <div class="txt-box mb-30 section">
+
+                        {{ with .Site.GetPage "section" "home/section3" }}{{ .Content }}{{ end }}
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- IMAGE BLOCK -->
+            <div class="col-md-6 col-lg-7">
+                <div class="img-block right-column wow fadeInLeft">
+                    <img class="img-fluid" src="images/img2.jpg" alt="content-image">
+                </div>
+            </div>
+        </div> <!-- End row -->
+    </div> <!-- End container -->
+</section> <!-- END SECTION-3 -->

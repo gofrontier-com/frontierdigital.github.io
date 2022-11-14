@@ -1,6 +1,6 @@
-##### DevOps for the Digital Frontier
+##### Start your ascent
 
-A hard working Cloud platform is the strong foundation that gives you the capabilities to
-tackle the challenges that come with being a successful business.
-Growing your company is an adventure; but it’s more akin a long distance trek that a day of Skydiving.
-For long term success you need software that grows and adapts to your changing requirements - you get bigger, it gets smarter.
+Moving to the cloud is an adventure but it’s more akin to a long distance
+trek than a day of skydiving. With a strong foundation - automation,
+security, observability and cost management - your cloud platform can
+deliver value at regular milestones. We can help you start your ascent.

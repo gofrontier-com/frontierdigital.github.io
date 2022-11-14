@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <!-- OLMO - Software, App, SaaS & Startup Landing Pages Pack design by DSAThemes (http://www.dsathemes.com) -->
-<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
-<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if lt IE 7]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8]><html class="ie ie8" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!-->
 <html lang="en">
 
@@ -22,7 +22,7 @@
 
 
   <!-- PAGE CONTENT
-		============================================= -->
+    ============================================= -->
   <div id="page" class="page">
 
 
@@ -34,84 +34,22 @@
 
 
     {{ partial "home/hero.html" . }}
-    <!-- CONTENT-666
-			============================================= -->
-    <section id="content-6" class="content-6 wide-60 content-section division">
-      <div class="container">
-        <div class="row d-flex align-items-center">
 
+    <!-- SECTION-1
+      ============================================= -->
+    {{ partial "home/section1.html" . }}
 
-          <!-- TEXT BLOCK -->
-          <div class="col-md-6 col-lg-5">
-            <div class="txt-block left-column wow fadeInLeft">
+    <!-- SECTION-2
+      ============================================= -->
+    {{ partial "home/section2.html" . }}
 
-              <!-- TEXT BOX -->
-              <div class="txt-box mb-30 section">
-                {{ with .Site.GetPage "section" "home/section1" }}{{ .Content }}{{ end }}
-              </div>
-
-            </div>
-          </div>
-          <!-- IMAGE BLOCK -->
-          <div class="col-md-6 col-lg-7">
-            <div class="img-block right-column wow fadeInLeft">
-              <img class="img-fluid" src="images/img-20.png" alt="content-image">
-            </div>
-          </div>
-
-
-        </div>
-        <div class="col-md-12 section">
-          {{ with .Site.GetPage "section" "home/section2" }}{{ .Content }}{{ end }}
-          <div>
-
-
-
-          </div> <!-- End row -->
-        </div> <!-- End container -->
-    </section> <!-- END CONTENT-6 -->
-    <!-- CONTENT-6
-			============================================= -->
-    <section id="content-6" class="content-6 wide-60 content-section division">
-      <div class="container">
-        <div class="row d-flex align-items-center">
-
-          <!-- IMAGE BLOCK -->
-          <div class="col-md-6 col-lg-7">
-            <div class="img-block right-column wow fadeInLeft">
-              <img class="img-fluid" src="images/img2.jpg" alt="content-image">
-            </div>
-          </div>
-
-
-          <!-- TEXT BLOCK -->
-          <div class="col-md-6 col-lg-5">
-            <div class="txt-block left-column wow fadeInRight">
-
-              <!-- TEXT BOX -->
-              <div class="txt-box mb-30 section">
-
-                {{ with .Site.GetPage "section" "home/section3" }}{{ .Content }}{{ end }}
-
-              </div>
-
-
-
-            </div>
-          </div>
-
-
-
-
-
-        </div> <!-- End row -->
-      </div> <!-- End container -->
-    </section> <!-- END CONTENT-6 -->
-
+    <!-- SECTION-3
+      ============================================= -->
+    {{ partial "home/section3.html" . }}
 
     <!-- FEATURES-2
-			============================================= -->
-    <section id="features-2" class="wide-60 features-section division">
+      ============================================= -->
+    <section id="features-2" class="wide-60 pt-50 features-section division">
       <div class="container">
 
 
@@ -119,69 +57,11 @@
         <div class="fbox-2-wrapper text-center">
           <div class="row row-cols-1 row-cols-md-3">
 
+            {{ partial "home/featurebox1.html" . }}
 
-            <!-- FEATURE BOX #1 -->
-            <div class="col">
-              <div class="fbox-2 mb-40 wow fadeInUp">
+            {{ partial "home/featurebox2.html" . }}
 
-                <!-- Icon -->
-                <div class="fbox-ico-center ico-65 shape-ico orange-red-color">
-                  <img class="ico-bkg" src="images/ico-bkg.png" alt="ico-bkg">
-                  <span class="flaticon-double-click"></span>
-                </div>
-
-                <!-- Text -->
-                <div class="fbox-txt-center section">
-
-                  {{ with .Site.GetPage "section" "home/featurebox1" }}{{ .Content }}{{ end }}
-
-                </div>
-
-              </div>
-            </div>
-
-
-            <!-- FEATURE BOX #2 -->
-            <div class="col">
-              <div class="fbox-2 mb-40 wow fadeInUp">
-
-                <!-- Icon -->
-                <div class="fbox-ico-center ico-65 shape-ico orange-red-color">
-                  <img class="ico-bkg" src="images/ico-bkg.png" alt="ico-bkg">
-                  <span class="flaticon-web-browser"></span>
-                </div>
-
-                <!-- Text -->
-                <div class="fbox-txt-center section">
-
-                  {{ with .Site.GetPage "section" "home/featurebox2" }}{{ .Content }}{{ end }}
-
-                </div>
-
-              </div>
-            </div>
-
-
-            <!-- FEATURE BOX #3 -->
-            <div class="col">
-              <div class="fbox-2 mb-40 wow fadeInUp">
-
-                <!-- Icon -->
-                <div class="fbox-ico-center ico-65 shape-ico orange-red-color">
-                  <img class="ico-bkg" src="images/ico-bkg.png" alt="ico-bkg">
-                  <span class="flaticon-web-programming"></span>
-                </div>
-
-                <!-- Text -->
-                <div class="fbox-txt-center section">
-
-                  {{ with .Site.GetPage "section" "home/featurebox3" }}{{ .Content }}{{ end }}
-
-                </div>
-
-              </div>
-            </div>
-
+            {{ partial "home/featurebox3.html" . }}
 
           </div>
         </div> <!-- END FEATURES-2 WRAPPER -->
@@ -215,7 +95,7 @@
 
 
     <!-- CONTENT-2A
-			============================================= -->
+      ============================================= -->
     <section id="content-2a" class="content-2 bg-04 wide-60 content-section division">
       <div class="container">
         <div class="row d-flex align-items-center">
@@ -256,7 +136,7 @@
 
 
     <!-- CONTENT-1
-			============================================= -->
+      ============================================= -->
     <section id="content-1" class="content-1 bg-snow wide-60 content-section division">
       <div class="container">
         <div class="row d-flex align-items-center">
@@ -287,7 +167,7 @@
 
                 <!-- CB BOX #1 -->
                 <div class="cb-single-box">
-                  <p class="p-lg cb-header">Cups of coffee in the last week</p>
+                  <p class="p-lg cb-header">Git commits in the last week</p>
                   <h2 class="h2-title-xs statistic-number"><sup>+</sup><span class="count-element">784</span></h2>
                   <p class="p-md mt-5 ico-10">
                     <span class="violet-red-color"><span class="flaticon-"></span> 4.6%</span> vs last 7 days
@@ -300,19 +180,18 @@
                 <div class="cb-single-box">
                   <ul class="simple-list">
                     <li class="list-item">
-                      <p class="p-md">We work with a small number of key clients meaning we give you our full attention
-                      </p>
+                      <p class="p-md">Automation is part of our DNA</p>
                     </li>
 
                     <li class="list-item">
-                      <p class="p-md">Reliable systems created by high levels of redundancy</p>
+                      <p class="p-md">We live and breathe "everything as code"</p>
                     </li>
                   </ul>
                 </div>
 
                 <!-- CB BOX #3 -->
                 <div class="cb-single-box cb-box-rounded bg-violet-red white-color mt-25">
-                  <p class="p-lg">Highly experienced in Devops and Sys Admin</p>
+                  <p class="p-lg">Git is our favourite source of truth</p>
                 </div>
 
               </div> <!-- END CB HOLDER -->
@@ -341,7 +220,7 @@
 
 
     <!-- BRANDS-1
-			============================================= -->
+      ============================================= -->
     <div id="brands-1" class="wide-100 brands-section division">
       <div class="container">
         <div class="row">
@@ -392,7 +271,7 @@
 
 
 
-    {{ partial "footer.html" }}
+    {{ partial "footer.html" . }}
 
   </div> <!-- END PAGE CONTENT -->
 
