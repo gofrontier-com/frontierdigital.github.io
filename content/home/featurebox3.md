@@ -1,4 +1,3 @@
-##### DevOps Orchestration
+##### Automated from the ground up
 
-Managing dependencies for applications down to the infrastructure level can be tiresome; Frontier Digital focus on solutions to maintain a full layered environment.
-When you need more than automation, we implement orchestration that reduces production issues and speed up time to market.
+We advocate best practices underpinned by a ‘code first’ approach to building and operating cloud platforms.
