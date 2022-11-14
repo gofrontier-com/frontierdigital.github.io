@@ -1,6 +1,5 @@
 baseURL = 'https://frontierdigital.net'
 languageCode = 'en-gb'
-title = 'Frontier Digital - Cloud Platform and Devops Professional Services Company'
 theme = 'frontiertheme'
 
 enableRobotsTXT = true
