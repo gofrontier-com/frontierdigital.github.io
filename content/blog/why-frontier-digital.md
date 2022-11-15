@@ -1,41 +1,41 @@
 ---
 title: "Why Frontier Digital?"
-date: 2022-06-07T00:00:00+00:00
-publishDate: 2022-06-07T00:00:00+00:00
+date: 2022-11-15T00:00:00+00:00
+publishDate: 2022-11-15T00:00:00+00:00
 author: Craig Anderson
 authorImage: "/images/craig.jpg"
 image: "/images/whyfd.jpg"
 tags: []
 comments: false
 category: Frontier Digital News
-summary: It’s time for your business to get onto the Cloud, but how do you ensure you implement it correctly?
+summary: It’s time for your business to move to the Cloud, but how do you ensure you get there safely, securely and without it running away with the pennies?
 type: post
 ---
 
 # Why Frontier Digital?
 
-It’s time for your business to get onto the Cloud, but how do you ensure you implement it correctly? Or perhaps you are already on the Cloud, but your platform isn’t working for you as well as you had hoped?
+It’s time for your business to move to the Cloud, but how do you ensure you get there safely, securely and without it running away with the pennies? Or perhaps you are already have a platform, but it isn’t working for you as well as you had hoped?
 
-When it comes to Cloud systems, there is no one-size-fits-all. Our experienced team can work with yours to ensure you get exactly what you need. We will review your usage and requirements so that everything you pay for, you use, providing you with the very best value.
+When it comes to Cloud platforms, there is no one-size-fits-all. Our experienced team can work with yours to build an automated, secure, observable and cost-effective cloud platform that's fit for your needs.
 
-## Functional and Scalable Cloud Platforms
+## The right tool for the job
 
-Your cloud system will be fully scalable, meaning that we can develop functionality as you develop new services, expand to new locations and take on more staff. Our team will be with you all the way to help you navigate new processes and to train your team to use your cloud platform to its full potential.
+Modern application development teams build applications using a variety of ecosystems, depending on the problem they're trying to solve. We're no different. We believe in using the right tool for the job, whether open source, ‘off the shelf’ or bespoke.
 
-One of the best ways to manage this is by moving to Kubernetes – this ensures that any scaling of your software happens smoothly, harmoniously and with limited downtime. We have lots of experience in supporting businesses to grow and expand.
+We are not afraid to tackle problems head on. We take time to understand the problem you want to solve and use our experience to engineer a solution with you. You won’t find us trying to sell you a solution for a problem you don’t have.
 
-We will remotely maintain your software, meaning less need for in-house and on-premise IT specialists, reducing IT maintenance costs significantly. We guarantee a low MTTR so that if any issues do arise, you are back in action fast. However, due to the high level of redundancy built into the architecture, you won’t even notice the vast majority of failures in the system.
+We think the best way to effect technology change is by delivering incremental value following agile methodologies, with short feedback loops and a focus on continuous improvement. This is how we work, and we can help you to work that way too, if you want.
 
 ## But why choose Frontier Digital?
 
-Our goal is to work with businesses in the early stages of development who, like us, want to do things a little differently. We see many of our clients as young, growing businesses who understand the value a high-quality, bespoke cloud system can bring to their work – businesses who are as excited and motivated to grow with the support of powerful technology.
+Our goal is to work with businesses at all stages of development who, like us, want to get the best from Cloud.
 
-We work with clients from a range of sectors. For us, it’s not about what you do but how you think. A high volume and turnover of clients will never be our model. We want to build long-term relationships and focus on full coaching and implementation.
+We see our clients as a mix of young, growing businesses who anticipate the value a well-engineered Cloud platform can add, and more established businesses who have taken the leap to the Cloud already but want to step it up a gear, or go back and spend some time on the foundations. They all have something in common: They are as excited and motivated to grow with the support of powerful technology as we are.
 
-Our software is carefully tailored to the needs of each client, and we provide real value by designing software that is both flexible and accessible.
+We work with clients from a range of sectors. For us, it’s not about what you do but how you do it. A high volume and turnover of clients will never be our model. We want to build long-term relationships and focus on helping your Cloud platform grow in maturity as your business grows in strength.
 
-## Cloud Software for Everyone
+## Cloud for everyone
 
 Finally, we are approachable. There are certain stereotypes about ‘techie’ people – the ‘have you tried turning it on and off again’ rhetoric. Being judgmental towards clients, or even someone just asking for a bit of advice, gets you nowhere. We want to see a world where everyone has access to great technology and where gatekeepers are replaced with mentors.
 
-So, if you are looking for a system that works in harmony with your day-to-day tasks, which is used fully by every employee and for which you have ongoing dedicated support, then Frontier Digital are the DevOps team for you.
+So, if you are looking for a partner to help you start something epic, or build better, then Frontier Digital can help.
