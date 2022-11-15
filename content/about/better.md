@@ -1,9 +1,19 @@
-## We’re Better. Here’s Why…
+## We’re better. Here’s why...
 
-We were born out of the realisation that companies moving to the Cloud had often found their pathway blocked, or were spending more than they expected trying to navigate the system. We want to use our experience to change the way software is developed; your developers should play a key role in your organisation’s journey to achieve your vision and break new ground.
+> *"We were born out of the realisation that companies moving to
+the cloud often find their pathway blocked, or spend more time
+than they expect trying to navigate the system. We want to use
+our experience to change the way cloud platform is approached,
+developed and operated."*
 
-Our goal is that every employee can use the software in a way that makes their job easier and more efficient. We can help you use the whole system, ensuring you are getting the very best value from your chosen Cloud product.
+Craig Anderson, CEO
 
-Frontier Digital is your partner for [DevOps, Sys Admin and Cloud](/blog/devops-sysadmin-cloud). Working together we build secure, scalable and highly available environments and automate repetitive tasks. While creating quality systems is an important part of our job, the most important, is coaching your team to use these systems. The most sophisticated technology in the world, is only a success if the end user understands how to make the most of it.
 
-We are a team of Cloud software enthusiasts who have come together to do things a little differently, to disrupt the largely inaccessible software world, ensuring that no one in your team is left behind. We are an approachable bunch, so even if you aren’t totally sure you are ready for our help yet, we would love to have a chat with you and steer you in the right direction.
+> *"At Frontier we are not afraid to tackle problems head on. We
+take time to understand the problem you want to solve and use our
+experience to engineer a solution with you. We believe in using
+the right tool for the job, whether 'off the shelf' or bespoke,
+but you won't find us bringing solutions for problems you don't
+have."*
+
+Fraser Davidson, CTO
