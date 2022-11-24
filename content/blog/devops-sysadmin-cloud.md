@@ -1,11 +1,10 @@
 ---
 title: "DevOps, Sys Admin, the Cloud – Explained"
-date: 2022-06-08T00:00:00+00:00
-publishDate: 2022-06-08T00:00:00+00:00
+date: 2022-11-24T00:00:00+00:00
+publishDate: 2022-11-24T00:00:00+00:00
 image: "/images/devopssysadmin.jpg"
 tags: []
 comments: false
-draft: true
 type: post
 category: blog post
 author: Craig Anderson
