@@ -1,7 +1,7 @@
 ---
 title: "Azure DevOps Pipelines with multiple schedules"
-date: 2022-11-012T00:00:00+00:00
-publishDate: 2022-11-12T00:00:00+00:00
+date: 2022-12-04T00:00:00+00:00
+publishDate: 2022-12-04T00:00:00+00:00
 image: "/images/devopssysadmin.jpg"
 tags: ['ADO']
 comments: false
