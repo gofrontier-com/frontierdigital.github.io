@@ -114,7 +114,7 @@ steps:
 - `System.TeamProject`: `my-project`
 - `Build.BuildId`: The Id for *this* running pipeline
 
-#### `jq` options
+#### jq options
 
 - `--raw-output`: removes quotes around the returned value
 
