@@ -38,7 +38,7 @@
           </div>
         </div>
 
-        {{ range first 1 .Pages.ByPublishDate }}
+        {{ range first 1 .Pages.ByPublishDate.Reverse }}
         <!-- FEATURED POST -->
         <div class="rel blog-post-wide featured-post">
           <div class="row d-flex align-items-center">
@@ -101,8 +101,7 @@
             <div class="col gallery-items-list">
               <div class="masonry-wrap grid-loaded">
 
-
-                {{ range after 1 .Pages.ByPublishDate }}
+                {{ range after 1 .Pages.ByPublishDate.Reverse }}
                 <!-- BLOG POST #1 -->
                 <div class="blog-3-post masonry-image">
 
