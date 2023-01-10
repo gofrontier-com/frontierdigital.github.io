@@ -23,6 +23,6 @@ For example, many cloud platforms offer "full automation" features that allow us
 
 As the number of users and workloads on a cloud platform increases, the risk of security breaches and other issues also grows. Ensuring that a cloud environment is secure and compliant with industry standards can be a time-consuming and resource-intensive task, especially for organisations that are not well-versed in cloud security best practices. 
 
-Having a truth for a cloud platform becomes harder as use and complexity scale, there are tools to help manage this but taking shortcuts to get something done quickly can lead to problems down the line as drift occurs and a fog descends on the platform masking what should be true from the reality of what exists.
+Having a source of truth for a cloud platform becomes harder as use and complexity scale, there are tools to help manage this but taking shortcuts to get something done quickly can lead to problems down the line as drift occurs and a fog descends on the platform masking what should be true from the reality of what exists.
 
 In short, while cloud platforms may appear simple on the surface, the reality is that they can be complex and challenging to manage at scale. It is important for users to be aware of the potential pitfalls and to be prepared to put in the time and effort required to properly set up and maintain a cloud environment. By doing so, organisations can realise the full benefits of the cloud and avoid the frustration and disruptions that can result from a poorly managed environment.
