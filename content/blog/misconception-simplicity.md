@@ -17,7 +17,7 @@ type: post
 
 In a relatively short period of time cloud platforms have increased in popularity, with many businesses and individuals touting their ease of use and simplicity. Moreover, enterprise businesses are adopting cloud based technologies with the expectation of simplicity. However, as the number of users and the complexity of workloads on these platforms have grown, it has become clear that the reality of using a cloud platform is often more difficult than the perception.
 
-One reason for this discrepancy is the proliferation of point-and-click tutorials and other "quick start" guides that make it seem like anyone can set up and run a cloud platform with minimal effort. While these resources can be helpful for getting started, they often don't provide a complete picture of the challenges and complexities that can arise as a workload scales up or to ensure the security of the platform and the data heard within.
+One reason for this discrepancy is the proliferation of point-and-click tutorials and other "quick start" guides that make it seem like anyone can set up and run a cloud platform with minimal effort. While these resources can be helpful for getting started, they often don't provide a complete picture of the challenges and complexities that can arise as a workload scales up or to ensure the security of the platform and the data held within.
 
 For example, many cloud platforms offer "full automation" features that allow users to set up and manage complex environments with just a few clicks. However, as the number of resources and dependencies grows, the complexity of the environment can quickly become overwhelming, making it difficult to troubleshoot issues or make changes without causing disruptions.
 
