@@ -93,11 +93,11 @@ The following definitions and rules of interpretation apply in these Conditions.
 ## 5 CHARGES AND PAYMENT
 5.1 Unless otherwise agreed by the parties in writing, the Charges for the Services shall be calculated on a time and materials basis:
 
-(a) the Charges shall be calculated in accordance with the Supplier’s daily fee rates, as set out in its current price list at the date of the Contract [displayed on its website ] or [the Statement of Work];
+(a) the Charges shall be calculated in accordance with the Supplier’s daily fee rates, as set out in its current price list at the date of the Contract [displayed on its website] or [the Statement of Work];
 
 (b) the Supplier’s daily fee rates for each individual are calculated on the basis of an eight-hour day from 8.00 am to 5.00 pm worked on Business Days; and
 
-(c) the Supplier shall be entitled to charge an overtime rate of [PERCENTAGE]% of the daily fee rate on a pro-rata basis for each part day or for any time worked by individuals whom it engages on the Services outside the hours referred to in Clause 5.1(b).
+(c) the Supplier shall be entitled to charge an overtime rate of 150% of the daily fee rate on a pro-rata basis for each part day or for any time worked by individuals whom it engages on the Services outside the hours referred to in Clause 5.1(b).
 
 5.2 The Supplier shall be entitled to charge the Customer for any expenses reasonably incurred by the individuals whom the Supplier engages in connection with the Services including travelling expenses, hotel costs, subsistence and any associated expenses, and for the cost of services provided by third parties and required by the Supplier for the performance of the Services, and for the cost of any materials.
 
@@ -131,8 +131,8 @@ time for payment shall be of the essence of the Contract.
 ## 7 DATA PROTECTION
 Both parties shall comply with all relevant data protection laws and regulations. Parties confirm and acknowledge that no personal data shall be transferred between them during the Services. In any case, the Supplier’s collection and use of any personal data will be done in accordance with the Supplier’s privacy notice, available at [insert link].
 
-## 8 LIMITATION OF LIABILITY: THE CUSTOMER’S ATTENTION IS PARTICULARLY DRAWN TO THIS CLAUSE.
-8.1 The Supplier has obtained insurance cover in respect of its own legal liability for individual claims not exceeding £[AMOUNT] per claim. The limits and exclusions in this Clause reflect the insurance cover the Supplier has been able to arrange and the Customer is responsible for making its own arrangements for the insurance of any excess loss.
+## 8 LIMITATION OF LIABILITY
+8.1 The Supplier has obtained insurance cover in respect of its own legal liability for individual claims not exceeding £5,000,000 per claim. The limits and exclusions in this Clause reflect the insurance cover the Supplier has been able to arrange and the Customer is responsible for making its own arrangements for the insurance of any excess loss.
 
 8.2 Restrictions on liability in this Clause 8 include every kind of liability arising under or in connection with the Contract including liability in contract, delict, under statute or otherwise (including liability arising from negligence).
 
@@ -166,7 +166,7 @@ Both parties shall comply with all relevant data protection laws and regulations
 
 8.7 This Clause 8 shall survive termination of the Contract.
 
-##9 TERMINATION
+## 9 TERMINATION
 9.1 Without affecting any other right or remedy available to it, either party may terminate the Contract by giving the other party [3] months’ written notice.
 
 9.2 Without affecting any other right or remedy available to it, either party may terminate the Contract with immediate effect by giving written notice to the other party if:
