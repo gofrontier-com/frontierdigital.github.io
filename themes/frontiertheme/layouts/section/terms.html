@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!-- OLMO - Software, App, SaaS & Startup Landing Pages Pack design by DSAThemes (http://www.dsathemes.com) -->
+<!--[if lt IE 7]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en">
+{{ partial "head.html" . }}
+
+<body>
+
+  {{ partial "spinner.html" . }}
+
+  <!-- PAGE CONTENT
+    ============================================= -->
+  <div id="page" class="page">
+    {{ partial "headerdark.html" . }}
+
+    <!-- SINGLE POST
+          ============================================= -->
+    <section id="single-post" class="wide-100 inner-page-hero single-post-section division">
+      <div class="container">
+        <!-- SINGLE POST CONTENT -->
+        <div class="row">
+          <div class="col-lg-10 offset-lg-1">
+            <div class="single-post-wrapper">
+
+              <!-- BLOG POST TEXT -->
+              <div class="single-post-txt blog">{{ with .Site.GetPage "section" "terms/terms" }}{{ .Content
+              }}{{ end }}</div>
+              <!-- END BLOG POST TEXT -->
+
+
+            </div>
+          </div>
+        </div>
+        <!-- END SINGLE POST CONTENT -->
+      </div>
+      <!-- End container -->
+    </section>
+    <!-- END SINGLE POST -->
+
+
+
+
+
+    {{ partial "footer.html" . }}
+  </div>
+  <!-- END PAGE CONTENT -->
+
+  {{ partial "extscripts.html" . }}
+</body>
+</html>
