@@ -68,7 +68,7 @@ This can be configured for other methods of encryption.
 
 The person who creates the secret to begin with can encrypt it and make it available to the wider platform in a safe and secure manner. No more passing secrets around in plain text before they reach a key vault.
 
-Typically, only your CI/CD process would have access to the private key in order to decrypt secrets just-in-time in automation. In our example, we are backing off to Azure Key Vault. Access control over the key vault is controlled by native Azure IAM roles. Our CI/CD service principal has the `Key Vault Secrets Officer` role assigned and is therefore able to access the private key in order to decrypt secrets. Since we are using Azure roles to control access to the resources, it follows that is would be possible to use Azure Privileged Identity Management (PIM) to elevate permissions for troubleshooting any issues with secrets.
+Typically, only your CI/CD process would have access to the private key in order to decrypt secrets just-in-time in automation. In our example, we are backing off to Azure Key Vault. Access control over the Key Vault is controlled by native Azure RBAC roles. Our CI/CD service principal has the `Key Vault Secrets Officer` role assigned and is therefore able to access the private key in order to decrypt secrets. Since we are using Azure roles to control access to the resources, it follows that is would be possible to use Azure Privileged Identity Management (PIM) to elevate permissions for troubleshooting any issues with secrets.
 
 ## Further information
 
