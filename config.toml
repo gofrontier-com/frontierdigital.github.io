@@ -20,6 +20,12 @@ url = "/about/"
 weight = 4
 
 [[menu.main]]
+identifier = "careers"
+name = "Careers"
+url = "http://22238495.hs-sites.com/careers"
+weight = 2
+
+[[menu.main]]
 identifier = "blog"
 name = "Blog"
 url = "/blog/"
