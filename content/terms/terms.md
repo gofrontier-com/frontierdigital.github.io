@@ -64,6 +64,7 @@ The following definitions and rules of interpretation apply in these Conditions.
 
 ## 4 CUSTOMER’S OBLIGATIONS
 4.1 The Customer shall:
+
 (a) ensure that the terms of the Statement of Work (if any) and/or any information it provides to the Supplier in connection with the Services are complete and accurate;
 
 (b) co-operate with the Supplier in all matters relating to the Services;
@@ -91,19 +92,19 @@ The following definitions and rules of interpretation apply in these Conditions.
 (c) the Customer shall reimburse the Supplier on written demand for any costs or losses sustained or incurred by the Supplier arising directly or indirectly from the Customer Default.
 
 ## 5 CHARGES AND PAYMENT
-5.1 Unless otherwise agreed by the parties in writing, the Charges for the Services shall be calculated on a time and materials basis:
+5.1 Unless otherwise agreed by the parties in writing in the relevant Statement of Work, the Charges for the Services shall be calculated on a time and materials basis:
 
-(a) the Charges shall be calculated in accordance with the Supplier’s daily fee rates, as set out in its current price list at the date of the Contract [displayed on its website] or [the Statement of Work];
+(a) the Charges shall be calculated in accordance with the Supplier’s daily fee rates, as set out in its current price list at the date of the Contract (which can be provided to the Customer on request);
 
 (b) the Supplier’s daily fee rates for each individual are calculated on the basis of an eight-hour day from 8.00 am to 5.00 pm worked on Business Days; and
 
-(c) the Supplier shall be entitled to charge an overtime rate of 150% of the daily fee rate on a pro-rata basis for each part day or for any time worked by individuals whom it engages on the Services outside the hours referred to in Clause 5.1(b).
+(c) the Supplier shall be entitled to charge an overtime rate of 50% of the daily fee rate on a pro-rata basis for each part day or for any time worked by individuals whom it engages on the Services outside the hours referred to in Clause 5.1(b).
 
 5.2 The Supplier shall be entitled to charge the Customer for any expenses reasonably incurred by the individuals whom the Supplier engages in connection with the Services including travelling expenses, hotel costs, subsistence and any associated expenses, and for the cost of services provided by third parties and required by the Supplier for the performance of the Services, and for the cost of any materials.
 
 5.3 The Supplier reserves the right to increase the Charges on an annual basis with effect from each anniversary of the Commencement Date in line with the percentage increase in the Retail Prices Index in the preceding 12-month period and the first such increase shall take effect on the first anniversary of the Commencement Date and shall be based on the latest available figure for the percentage increase in the Retail Prices Index.
 
-5.4 The Supplier shall invoice the Customer [on completion of the Services] OR [weekly OR monthly] in arrears.
+5.4 The Supplier shall invoice the Customer monthly in arrears, unless agreed otherwise in the relevant Statement of Work.
 
 5.5 The Customer shall pay each invoice submitted by the Supplier:
 
@@ -120,19 +121,26 @@ time for payment shall be of the essence of the Contract.
 5.8 All amounts due under the Contract shall be paid in full without any set-off, counterclaim, deduction or withholding (other than any deduction or withholding of tax as required by law).
 
 ## 6 INTELLECTUAL PROPERTY RIGHTS
-6.1 All Intellectual Property Rights in or arising out of or in connection with the Services (other than Intellectual Property Rights in any materials provided by the Customer) shall be owned by the Supplier.
+6.1 All Intellectual Property Rights in or arising out of or in connection with the Services (other than Intellectual Property Rights in any materials provided by the Customer) shall be owned by the Supplier unless agreed otherwise in the relevant Statement of Work.
 
-6.2 The Supplier grants to the Customer, or shall procure the direct grant to the Customer of, a fully paid-up, worldwide, non-exclusive, royalty-free [perpetual and irrevocable licence] or[licence during the term of the Contract] to copy [and modify] the Deliverables (excluding materials provided by the Customer) for the purpose of receiving and using the Services and the Deliverables in its business.
+6.2 The Supplier grants to the Customer, or shall procure the direct grant to the Customer of, a fully paid-up, worldwide, non-exclusive, royalty-free licence during the term of the Contract to copy and modify the Deliverables (excluding materials provided by the Customer) for the purpose of receiving and using the Services and the Deliverables in its business.
 
 6.3 The Customer shall not sub-license, assign or otherwise transfer the rights granted in Clause 6.2.
 
 6.4 The Customer grants the Supplier a fully paid-up, non-exclusive, royalty-free, non-transferable licence to copy and modify any materials provided by the Customer to the Supplier for the term of the Contract for the purpose of providing the Services to the Customer.
 
 ## 7 DATA PROTECTION
-Both parties shall comply with all relevant data protection laws and regulations. Parties confirm and acknowledge that no personal data shall be transferred between them during the Services. In any case, the Supplier’s collection and use of any personal data will be done in accordance with the Supplier’s privacy notice, available at [insert link].
+Both parties shall comply with all relevant data protection laws and regulations. Parties confirm and acknowledge that no personal data shall be transferred between them during the Services. In any case, the Supplier’s collection and use of any personal data will be done in accordance with the Supplier’s privacy notice, available at <https://frontierdigital.net/privacy>.
 
 ## 8 LIMITATION OF LIABILITY
-8.1 The Supplier has obtained insurance cover in respect of its own legal liability for individual claims not exceeding £5,000,000 per claim. The limits and exclusions in this Clause reflect the insurance cover the Supplier has been able to arrange and the Customer is responsible for making its own arrangements for the insurance of any excess loss.
+8.1 The Supplier has obtained insurance cover in respect of the following liabilities:
+
+(a) Professional indemnity insurance with a limit of £5 million for claims arising from a single event or series of related events;
+
+(b) Cyber liability and data insurance with a limit of £1 million for claims arising from a single event or series of related events; and
+
+(c) Public and product liability insurance with a limit of £5 million for claims arising from a single event or series of related events.
+The Supplier may change its insurance levels at any time and the levels of the insurance cover at the time can be provided to the Customer upon request. The limits and exclusions in this Clause reflect the insurance cover the Supplier has been able to arrange and the Customer is responsible for making its own arrangements for the insurance of any excess loss.
 
 8.2 Restrictions on liability in this Clause 8 include every kind of liability arising under or in connection with the Contract including liability in contract, delict, under statute or otherwise (including liability arising from negligence).
 
@@ -144,7 +152,7 @@ Both parties shall comply with all relevant data protection laws and regulations
 
 (c) breach of the terms implied by section 11B of the Supply of Goods and Services Act 1982 (title and quiet possession).
 
-8.4 Subject to Clause 8.3 (Liabilities which cannot legally be limited), the Supplier’s total liability to the Customer shall not exceed the level of the Supplier’s insurance obtained and maintained pursuant to Clause 8.1 of these Conditions for any one event or series of connected events.
+8.4 Subject to Clause 8.3 (Liabilities which cannot legally be limited), the Supplier’s total liability to the Customer shall not exceed the higher of: (i) an amount equal to the Charges paid or payable to the Supplier in the preceding 12 months’ period; and (ii) an amount equal to the level of the Supplier’s insurance coverage (obtained and maintained pursuant to Clause 8.1 of these Conditions) that is paid out by the insurers in relation to an insured claim, for any one event or series of connected events.
 
 8.5 Subject to Clause 8.3 (Liabilities which cannot legally be limited), the Supplier is not liable to the Customer for any:
 
@@ -167,7 +175,7 @@ Both parties shall comply with all relevant data protection laws and regulations
 8.7 This Clause 8 shall survive termination of the Contract.
 
 ## 9 TERMINATION
-9.1 Without affecting any other right or remedy available to it, either party may terminate the Contract by giving the other party [3] months’ written notice.
+9.1 Without affecting any other right or remedy available to it, either party may terminate the Contract by giving the other party 3 months’ written notice.
 
 9.2 Without affecting any other right or remedy available to it, either party may terminate the Contract with immediate effect by giving written notice to the other party if:
 
@@ -201,64 +209,72 @@ Both parties shall comply with all relevant data protection laws and regulations
 10.3 Any provision of the Contract that expressly or by implication is intended to come into or continue in force on or after termination or expiry of the Contract shall remain in full force and effect.
 
 ## 11 GENERAL
-11.1 Force majeure
+### 11.1 Force majeure
+
 Neither party shall be in breach of the Contract nor liable for delay in performing, or failure to perform, any of its obligations under the Contract if such delay or failure result from events, circumstances or causes beyond its reasonable control.
 
-11.2 Assignation and other dealings
+### 11.2 Assignation and other dealings
 
 (a) The Supplier may at any time assign, charge, subcontract, declare a trust over or deal in any other manner with any or all of its rights and obligations under the Contract.
 
 (b) The Customer shall not assign, transfer, charge, subcontract, declare a trust over or deal in any other manner with any of its rights and obligations under the Contract without the prior written consent of the Supplier.
 
-11.3 Confidentiality
+### 11.3 Confidentiality
+
 (a) Each party undertakes that it shall not at any time disclose to any person any confidential information concerning the business, affairs, customers, clients or suppliers of the other party, except as permitted by Clause 11.3(b).
 
 (b) Each party may disclose the other party’s confidential information:
 
-(i) to its employees, officers, representatives, subcontractors or advisers who need to know such information for the purposes of carrying out the party’s obligations under the Contract. Each party shall ensure that its employees, officers, representatives, subcontractors or advisers to whom it discloses the other party’s confidential information comply with this Clause 11.3; and
+&nbsp;&nbsp;(i) to its employees, officers, representatives, subcontractors or advisers who need to know such information for the purposes of carrying out the party’s obligations under the Contract. Each party shall ensure that its employees, officers, representatives, subcontractors or advisers to whom it discloses the other party’s confidential information comply with this Clause 11.3; and
 
-(ii) as may be required by law, a court of competent jurisdiction or any governmental or regulatory authority.
+&nbsp;&nbsp;(ii) as may be required by law, a court of competent jurisdiction or any governmental or regulatory authority.
 
 (c) Neither party shall use the other party’s confidential information for any purpose other than to perform its obligations under the Contract.
 
-11.4 Entire agreement
+### 11.4 Entire agreement
 
 (a) The Contract constitutes the entire agreement between the parties and supersedes and extinguishes all previous agreements, promises, assurances, warranties, representations and understandings between them, whether written or oral, relating to its subject matter.
 
 (b) Each party acknowledges that in entering into the Contract it does not rely on, and shall have no remedies in respect of any statement, representation, assurance or warranty (whether made innocently or negligently) that is not set out in the Contract. Each party agrees that it shall have no claim for innocent or negligent misrepresentation based on any statement in the Contract.
 
-11.5 Variation
+### 11.5 Variation
+
 Except as set out in these Conditions, no variation of the Contract shall be effective unless it is in writing and signed by the parties (or their authorised representatives).
 
-11.6 Waiver
+### 11.6 Waiver
+
 A waiver of any right or remedy under the Contract or by law is only effective if given in writing and shall not be deemed a waiver of any subsequent right or remedy. A failure or delay by a party to exercise any right or remedy provided under the Contract or by law shall not constitute a waiver of that or any other right or remedy, nor shall it prevent or restrict any further exercise of that or any other right or remedy. No single or partial exercise of any right or remedy provided under the Contract or by law shall prevent or restrict the further exercise of that or any other right or remedy.
 
-11.7 Severance
+### 11.7 Severance
+
 If any provision or part-provision of the Contract is or becomes invalid, illegal or unenforceable, it shall be deemed deleted, but that shall not affect the validity and enforceability of the rest of this agreement. If any provision or part-provision of this Contract is deleted under this Clause 11.7 the parties shall negotiate in good faith to agree a replacement provision that, to the greatest extent possible, achieves the intended commercial result of the original provision.
 
-11.8 Notices
+### 11.8 Notices
 
-(a) Any notice [or other communication] given to a party under or in connection with the Contract shall be in writing and shall be:
+(a) Any notice or other communication given to a party under or in connection with the Contract shall be in writing and shall be:
 
-(i) delivered by hand or by pre-paid first-class post or other next working day delivery service at its registered office (if a company) or its principal place of business (in any other case); or
+&nbsp;&nbsp;(i) delivered by hand or by pre-paid first-class post or other next working day delivery service at its registered office (if a company) or its principal place of business (in any other case); or
 
-(ii) sent by email.
+&nbsp;&nbsp;(ii) sent by email.
 
 (b) Any notice or communication shall be deemed to have been received:
 
-(i) if delivered by hand, at the time the notice is left at the proper address;
+&nbsp;&nbsp;(i) if delivered by hand, at the time the notice is left at the proper address;
 
-(ii) if sent by pre-paid first-class post or other next working day delivery service, at 9.00 am on the second Business Day after posting;or
+&nbsp;&nbsp;(ii) if sent by pre-paid first-class post or other next working day delivery service, at 9.00 am on the second Business Day after posting; or
 
-(iii) if sent by email, at the time of transmission, or, if this time falls outside business hours in the place of receipt, when business hours resume. In this Clause 11.8(b)(iii), business hours means 9.00 am to 5.00 pm Monday to Friday on a day that is not a public holiday in the place of receipt.
+&nbsp;&nbsp;(iii) if sent by email, at the time of transmission, or, if this time falls outside business hours in the place of receipt, when business hours resume. In this Clause 11.8(b)(iii), business hours means 9.00 am to 5.00 pm Monday to Friday on a day that is not a public holiday in the place of receipt.
 
 (c) This Clause 11.8 does not apply to the service of any proceedings or other documents in any legal action or, where applicable, any other method of dispute resolution.
 
-11.9 Third party rights
+### 11.9 Third party rights
+
 Unless it expressly states otherwise, the Contract does not give rise to any rights under the Contract (Third Party Rights) (Scotland) Act 2017 for any third party to enforce or otherwise invoke any term of the Contract.
 
-11.10 Governing law
+### 11.10 Governing law
+
 The Contract, and any dispute or claim (including non-contractual disputes or claims) arising out of or in connection with it or its subject matter or formation, shall be governed by and construed in accordance with the law of Scotland.
 
-11.11 Jurisdiction
+### 11.11 Jurisdiction
+
 Each party irrevocably agrees that the Scottish courts shall have exclusive jurisdiction to settle any dispute or claim (including non-contractual disputes or claims) arising out of or in connection with the Contract or its subject matter or formation.
